@@ -9,27 +9,27 @@ export const Navigation = () => {
         <div className="menu">
       <NavLink to="/">
         <MenuItem selected className="MenuItem">
-          Home
+          home
         </MenuItem>
       </NavLink>
       <NavLink to="/about">
         <MenuItem selected className="MenuItem">
-          About Me
+          about me
         </MenuItem>
       </NavLink>
       <NavLink to="/contact">
         <MenuItem selected className="MenuItem">
-          Contact
+          contact
         </MenuItem>
       </NavLink>
       <NavLink to="/mywork">
         <MenuItem selected className="MenuItem">
-          My Work
+          my work
         </MenuItem>
       </NavLink>
       <NavLink to="/fun">
         <MenuItem selected className="MenuItem">
-          Fun
+          fun
         </MenuItem>
       </NavLink>
     </div>

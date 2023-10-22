@@ -1,8 +1,10 @@
+
+import "./Home.css";
 export const Home = () => {
   return (
-    <div>
+    <div className="container">
       <div>
-        <h1>Welcome to Banka website</h1>
+        <h1>welcome to Banka website</h1>
       </div>
     </div>
   );

@@ -1,13 +1,25 @@
+@font-face {
+  font-family: "Supernatural";
+  src: local("Supernatural"), url("./fonts/Supernatural.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Macondo";
+  src: local("Macondo"), url("./fonts/Macondo.ttf") format("truetype");
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  display:flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Macondo", "Supernatural",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

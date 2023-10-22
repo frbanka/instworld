@@ -1,9 +1,9 @@
 import { routerType } from "../types/router.types";
 import About from "./About/About";
 import { Home } from "./Home/Home";
-import { Contact } from "../components/Contact/Contact";
-import { MyWork } from "../components/MyWork/MyWork";
-import { Fun } from "../components/Fun/Fun";
+import { Contact } from "./Contact/Contact";
+import { MyWork } from "./MyWork/MyWork";
+import { Fun } from "./Fun/Fun";
 
 const pagesData: routerType[] = [
   {

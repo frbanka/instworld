@@ -5,8 +5,17 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           "&.Mui-selected": {
-            backgroundColor: "blue",
-            color: "white",
+            background: "none",
+            color: "black",
+            height: "40px",
+            textDecoration: "none",
+            textDecorationStyle: "none",
+            fontFamily: "Supernatural",
+            fontSize: "22px",
+          },
+          "&:hover": {
+            backgroundColor: "transparent",
+            color: "red",
           },
         },
       },
