@@ -13,7 +13,7 @@ export const theme = createTheme({
             fontFamily: "Supernatural",
             fontSize: "22px",
           },
-          "&:hover": {
+          "&.Mui-selected:hover": {
             backgroundColor: "transparent",
             color: "red",
           },
