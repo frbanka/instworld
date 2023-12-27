@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export const Home = () => {
   return (
     <div className="homecontainer">
-      <div className="text">
+      <div className="hometext">
         <h1 className="h1">
           Hello stranger! Welcome to my official social experiment page
         </h1>
