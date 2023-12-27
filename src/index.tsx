@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./fonts/Supernatural.ttf";
+import "./fonts/RobotoMono.ttf";
+import "./fonts/NotoSans.ttf";
 import "./fonts/Macondo.ttf";
 import "./index.css";
 import App from "./App";
