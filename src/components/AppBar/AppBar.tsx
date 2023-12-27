@@ -1,7 +1,7 @@
 import { Navigation } from "../Navigation/Navigation";
 export const AppBar = () => {
   return (
-    <header>
+    <header className="head">
       <Navigation />
     </header>
   );

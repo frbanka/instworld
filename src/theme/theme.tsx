@@ -6,16 +6,16 @@ export const theme = createTheme({
         root: {
           "&.Mui-selected": {
             background: "none",
-            color: "black",
+            color: "white",
             height: "40px",
             textDecoration: "none",
             textDecorationStyle: "none",
-            fontFamily: "Supernatural",
-            fontSize: "22px",
+            fontFamily: "NotoSans",
+            fontSize: "20px",
           },
           "&.Mui-selected:hover": {
             backgroundColor: "transparent",
-            color: "red",
+            color: "green",
           },
         },
       },

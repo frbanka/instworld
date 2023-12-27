@@ -9,11 +9,11 @@
 }
 
 body {
-  display:flex;
+  display: flex;
   justify-content: center;
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Macondo", "Supernatural",
-    sans-serif;
+    "NotoSans", "RobotoMono", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 

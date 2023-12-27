@@ -12,24 +12,24 @@ const pagesData: routerType[] = [
     title: "home",
   },
   {
-    path: "spells",
+    path: "why",
     element: <About />,
-    title: "spells",
+    title: "why",
   },
   {
-    path: "jobs",
+    path: "money",
     element: <Contact />,
-    title: "jobs",
+    title: "money",
   },
   {
-    path: "bestiary",
+    path: "goals",
     element: <MyWork />,
-    title: "bestiary",
+    title: "goals",
   },
   {
-    path: "mol",
+    path: "pay",
     element: <Fun />,
-    title: "menofletters",
+    title: "pay",
   },
 ];
 

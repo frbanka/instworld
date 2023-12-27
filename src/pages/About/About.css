@@ -1,0 +1,43 @@
+.aboutcontainer {
+  font-family: NotoSans;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 100%;
+  background-color: white;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  text-align: center;
+}
+.h1 {
+  font-size: 45px;
+  padding-top: 300px;
+}
+.h2 {
+  font-size: 45px;
+}
+p {
+  font-family: NotoSans;
+  font-size: 34px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 250px;
+}
+.p2 {
+  padding-top: 10px;
+}
+.answer {
+  font-size: 42px;
+  padding-top: 350px;
+}
+.answer2 {
+  font-size: 48px;
+  padding-top: 350px;
+}
