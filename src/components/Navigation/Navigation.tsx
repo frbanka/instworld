@@ -28,7 +28,7 @@ export const Navigation = () => {
         }}
       >
         <MenuItem selected className="MenuItem">
-          BUT.. WHY?
+          WHY?
         </MenuItem>
       </NavLink>
       <NavLink
@@ -40,7 +40,7 @@ export const Navigation = () => {
         }}
       >
         <MenuItem selected className="MenuItem">
-          MONEY$MONEY
+          MONEY$
         </MenuItem>
       </NavLink>
       <NavLink
@@ -64,7 +64,7 @@ export const Navigation = () => {
         }}
       >
         <MenuItem selected className="MenuItem">
-          PAY HERE
+          DONATE
         </MenuItem>
       </NavLink>
     </div>

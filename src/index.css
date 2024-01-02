@@ -1,25 +1,64 @@
 @font-face {
-  font-family: "Supernatural";
-  src: local("Supernatural"), url("./fonts/Supernatural.ttf") format("truetype");
+  font-family: "LilitaOne";
+  src: local("LilitaOne"), url("./fonts/LilitaOne.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: "Macondo";
-  src: local("Macondo"), url("./fonts/Macondo.ttf") format("truetype");
+  font-family: "Acme";
+  src: local("Acme"), url("./fonts/Acme.ttf") format("truetype");
 }
 
 body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "Macondo", "Supernatural",
-    "NotoSans", "RobotoMono", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "LilitaOne", "Acme",
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+p {
+  font-family: Acme;
+  font-size: 28px;
+  padding-left: 150px;
+  padding-right: 150px;
+  letter-spacing: 2px;
+  line-height: 38px;
+}
+.h1 {
+  font-size: 55px;
+}
+.h12 {
+  font-size: 65px;
+}
+.h2 {
+  font-size: 45px;
+}
+.h3 {
+  font-size: 35px;
+}
+.h4 {
+  font-size: 28px;
+}
+.h5 {
+  font-size: 22px;
+}
+.p1 {
+  padding-top: 300px;
+}
+.p12 {
+  padding-top: 225px;
+}
+.p2 {
+  padding-top: 150px;
+}
+.p3 {
+  padding-top: 50px;
+}
+.p4 {
+  padding-top: 25px;
 }

@@ -7,11 +7,12 @@ export const theme = createTheme({
           "&.Mui-selected": {
             background: "none",
             color: "white",
-            height: "40px",
+            height: "50px",
             textDecoration: "none",
             textDecorationStyle: "none",
-            fontFamily: "NotoSans",
-            fontSize: "20px",
+            fontFamily: "LilitaOne",
+            fontSize: "18px",
+            
           },
           "&.Mui-selected:hover": {
             backgroundColor: "transparent",

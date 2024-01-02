@@ -1,43 +1,97 @@
 .aboutcontainer {
-  font-family: NotoSans;
+  font-family: Acme;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  width: 1400px;
   height: 100%;
   background-color: white;
 }
-.text {
+.abouttext {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  max-width: 720px;
   text-align: center;
 }
-.h1 {
-  font-size: 45px;
-  padding-top: 300px;
+.aboutsection1 {
+  background-color: bisque;
+  width: 1400px;
+  height: 800px;
 }
-.h2 {
-  font-size: 45px;
+.aboutsection2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 193, 116);
+  width: 1400px;
+  height: 600px;
 }
-p {
-  font-family: NotoSans;
-  font-size: 34px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 250px;
+.aboutsection3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 235, 211);
+  width: 1400px;
+  height: 950px;
 }
-.p2 {
-  padding-top: 10px;
+.aboutsection4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 240, 223, 0.884);
+  width: 1400px;
+  height: 750px;
 }
-.answer {
-  font-size: 42px;
-  padding-top: 350px;
+.aboutsection5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(231, 255, 143, 0.781);
+  width: 1400px;
+  height: 500px;
 }
-.answer2 {
-  font-size: 48px;
-  padding-top: 350px;
+.aboutsection6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(239, 255, 179, 0.781);
+  width: 1400px;
+  height: 900px;
+}
+.aboutsection7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 249, 159, 0.781);
+  width: 1400px;
+  height: 1000px;
+}
+.aboutsection8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  width: 1400px;
+  height: 1000px;
+}
+.aboutsection9 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 1000px;
+}
+.aboutsection10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(157, 255, 189);
+  width: 1400px;
+  height: 1000px;
 }
