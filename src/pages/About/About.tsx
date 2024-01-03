@@ -5,102 +5,115 @@ const About = () => {
     <div className="aboutcontainer">
       <div className="abouttext">
         <div className="aboutsection1">
-          <div className="h12 p12">Why? Let me ask you something:</div>
+          <div className="h12 p12">Why?</div>
           <p className="h3 p3">
-            Why would anybody give their money to someone in the internet,
-            someone they never seen (and will propably never see) in real life,
-            in person?
+            Why companies, brands or just other people pay to Instagram
+            influencers, Youtubers, streamers etc.?
           </p>
         </div>
         <div className="aboutsection2">
-          <p className="h3 p3">
-            Lot of people support gamers, streamers, youtubers, strippers,
-            instagram celebrities etc.<br></br>But.. why?
+          <p className="h2 p3">
+            When it comes to OnlyFans.. there is not much to talk about. People
+            pay to see some naked ass and get horny. That's all.
           </p>
           <p className="h3 p5">
-            Because they work hard? Because they make a world a better place?
+            (not that you can see ass for free, just by googling it..)
           </p>
-          <p className="h3 p5">Because they are your friends?</p>
+          <p className="h2 p4">But how the others earn money?</p>
         </div>
         <div className="aboutsection3">
-          <p className="h1 p3">No.</p>
-          <p className="p4 h4">
-            Because they sell their bodies, their privacy, their time, they show
-            butts and tits, they laugh, chat, get you horny and excited
-          </p>
-          <p className="p4 h4">
-            Because they gather more and more money - to buy cars, go on
-            vacation, to party, eat, drink, buy new clothes, houses and more
-            cars
-          </p>
+          <p className="p4 h1">Instagram influencers</p>
           <p className="p4 h3">
-            And they show people how they live with all of that - all of that,
-            that You help them get
+            As the{" "}
+            <a
+              href="https://creators.instagram.com/earn-money/branded-content"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram Creators page
+            </a>{" "}
+            says: '..to share the brands and products you love'
+          </p>
+          <p className="p3 h4">
+            In other words, the get money from advertising products, like
+            clothes and jewelery or food - by posting photos while they eat or
+            wear the advertised goods
           </p>
         </div>
         <div className="aboutsection4">
-          <p className="h12 p2">But don't get me wrong!</p>
-          <p className="p5 h2">
-            Lot of this internet celebrities are great persons and really hard
-            working!
+          <p className="h12 p2">What about Twitch streamers?</p>
+          <p className="p5 h3">
+            Same. <br></br>But with some more other options like channel
+            subscriptions, donations (called Twitch bits) or by running ads on
+            their stream
           </p>
           <p className="p5 h3">
-            And everybody wants to earn money - there is nothing wrong with
-            that!
+            You can read more on{" "}
+            <a
+              href="https://www.thoughtleaders.io/blog/how-do-twitch-streamers-make-money"
+              target="_blank"
+              rel="noreferrer"
+            >
+              this blog
+            </a>{" "}
+            I just randomly found
           </p>
         </div>
         <div className="aboutsection5">
-          <p className="p4 h2">so what is the point in all of that?</p>
+          <p className="p4 h1">And Youtube?</p>
         </div>
         <div className="aboutsection6">
-          <p className="p12 h1">Thats right. The choice.</p>
-          <p className="p2 h4">Why people donate?</p>
-          <p className="p5 h1">Because they want. And they can.</p>
+          <p className="p12 h1">The same as Twitch</p>
+          <p className="p3 h2">But different naming</p>
+          <p className="p5 h3">
+            (Read more here:{" "}
+            <a
+              href="https://support.google.com/youtube/answer/72857?hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              click)
+            </a>
+          </p>
         </div>
         <div className="aboutsection7">
-          <p className="p2 h3">
-            Because they can do with their money whatever they want.
+          <p className="p1 h2">All of this is nothing strange today</p>
+          <p className="p4 h3">Whole Internet is about advertising</p>
+          <p className="p4 h3">
+            To gain customers. Followers. Clients. Audience. Fans.
           </p>
-          <p className="p4 h2">
-            Lot of things in the internet that you buy, support/donate - you can
-            have for free.<br></br>So still, why pay?
-          </p>
-          <p className="p3 h2">Let me tell you this:</p>
-          <p className="p2 h1">Donate me</p>
+          <p className="p4 h2">But why do people Donate?</p>
         </div>
         <div className="aboutsection8">
-          <p className="p2 h3">
-            and you will be one of the many or few people, who will be the first
-            one ever creators
+          <p className="p2 h2">
+            Why people send money to the Internet celebrities?
           </p>
-          <p className="p4 h3">of brand new social media celebrity</p>
-          <p className="p5 h2">with no name and no face</p>
-          <p className="p5 h3">and with no content whatsoever</p>
+          <p className="p4 h3">
+            If You did that at least once before - then you will know
+          </p>
+          <p className="p3 h2">
+            But If you didn't.. then you will know very soon
+          </p>
         </div>
         <div className="aboutsection9">
-          <p className="p2 h1">Is it stupid? Maybe.</p>
-          <p className="p3 h2">
-            Then don't donate. Forget about it. But don't regret this later
-          </p>
+          <p className="p2 h1">How?</p>
+          <p className="p3 h1">By this experiment:</p>
           <p className="p3 h3">
-            (I still regret not buying Bitcoin 12 years ago for 3$..)
-          </p>
-          <p className="p5 h4">
-            (Because I thought it was stupid and waste of money)
+            Imagine that I am your favourite streamer or Youtuber. Or your
+            favourite Instagram model. Or any other Creator, social media Star
+            you like and follow.
           </p>
         </div>
         <div className="aboutsection10">
-          <p className="p2 h3">It is matter of time here, but..</p>
-          <p className="p3 h1">
-            I will be rich. I will be famous. I will succeed.
+          <p className="p2 h2">
+            And donate me.<br></br>Yes, thats right.
           </p>
-          <p className="p5 h3">You can be a part of that success. Now.</p>
-          <p className="p3 h2">
-            I will be a new star. I will be the one that everybody is talking
-            about.
+          <p className="p3 h3">
+            You can donate a dollar, a thousand dollars or a penny
           </p>
-          <p className="p3 h3">And you can be a father of that success.</p>
-          <p className="p2 h3">
+          <p className="p3 h3">Doesn't matter how much.</p>
+          <p className="p4 h2">Just do it</p>
+          <p className="p1 h3">
             <NavLink
               to="/money"
               style={({ isActive }) => {
@@ -109,7 +122,7 @@ const About = () => {
                   : { textDecoration: "none" };
               }}
             >
-              How? ➡
+              and see what happens ➡
             </NavLink>
           </p>
           <p className="p4 h5">#onemilliondollarman</p>

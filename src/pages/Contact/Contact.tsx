@@ -63,8 +63,9 @@ export const Contact = () => {
           <p className="p5 h2">And I promise to reply</p>
         </div>
         <div className="contactsection5">
-          <p className="p1 h1">
-            The fun will begin when The Counter reaches first 1000$..
+          <p className="p1 h2">
+            (I still regret not buying Bitcoin 12 years ago for 3$.. Because I
+            thought it was stupid and waste of money)
           </p>
           <p className="p3 h2">
             <NavLink
