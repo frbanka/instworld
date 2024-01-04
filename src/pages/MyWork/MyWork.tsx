@@ -5,7 +5,15 @@ export const MyWork = () => {
     <div className="workcontainer">
       <div className="worktext">
         <div className="worksection1">
-          <div className="h12 p12">Important!</div>
+          <div className="h12 p12">The main goal is 1 million $</div>
+          <p className="h3 p3">
+            I am not sure if we will reach a million here or just few bucks..
+            but maybe we will reach even more, like few millions.. Thats why I
+            came up with some different stages, thresholds - Goals
+          </p>
+        </div>
+        <div className="worksection4">
+          <p className="h1 p4">Important!</p>
           <p className="h3 p3">
             Every single donate will be listed on this website (on Donate page)
             - with a donors name, nick, instagram nickname, link to your youtube

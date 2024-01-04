@@ -89,7 +89,7 @@ const About = () => {
             Why people send money to the Internet celebrities?
           </p>
           <p className="p4 h3">
-            If You did that at least once before - then you will know
+            If You did that by yourself at least once - then you will know
           </p>
           <p className="p3 h2">
             But If you didn't.. then you will know very soon
@@ -122,7 +122,7 @@ const About = () => {
                   : { textDecoration: "none" };
               }}
             >
-              and see what happens ➡
+              but for what? ➡
             </NavLink>
           </p>
           <p className="p4 h5">#onemilliondollarman</p>

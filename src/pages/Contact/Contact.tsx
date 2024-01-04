@@ -6,68 +6,56 @@ export const Contact = () => {
     <div className="contactcontainer">
       <div className="contacttext">
         <div className="contactsection1">
-          <div className="h12 p12">The Money Counter</div>
-          <p className="h1 p3">0,00 $</p>
+          <p className="h1 p2">For the money.</p>
+          <div className="h12 p3">
+            <p className="h2 p4">
+              I mean, my money. I want you to help me become rich, just like
+              that. For nothing.
+            </p>
+          </div>
         </div>
         <div className="contactsection2">
+          <p className="h2 p3">I want to become rich.</p>
           <p className="h2 p3">
-            Every single donate will be added and updated in the Counter above,
-            once a day
+            The main goal is to reach 1 million dollars. And then more.
           </p>
           <p className="h3 p5">
-            Every single donate will be listed on this website - with a donors
-            name, nick, instagram nickname, link to your youtube channel, your
-            OF page - whatever you leave me in the donate feedback. <br></br>
-            Even your photo.
+            Why would you donate me anything?<br></br>To have fun. To give me
+            fun. To proove yourself, proove me or the other people - the whole
+            Internet - that it doesn't matter why and who you give your money.
           </p>
-          <p className="h2 p5">And that's it?</p>
+          <p className="h2 p5">It is your choice. It is everybody's choice</p>
         </div>
         <div className="contactsection3">
-          <p className="h1 p3">Nope.</p>
-          <p className="p4 h3">
-            With more and more money on The Counter, with more and more donates,
-            I will start to spend the donated money
-          </p>
+          <p className="h1 p3">You say: it is stupid</p>
+          <p className="p4 h3">Maybe. But think about it this:</p>
           <p className="p4 h4">
-            Every single use (buy) of large amount (see{" "}
-            <NavLink
-              to="/goals"
-              style={({ isActive }) => {
-                return isActive
-                  ? { textDecoration: "none" }
-                  : { textDecoration: "none" };
-              }}
-            >
-              The Goals page
-            </NavLink>
-            ) - I will share with the everybody on my instagram channel
+            there are people who are trying day by day to become popular in the
+            Internet to earn lot of money - like those streamers and influencers
           </p>
-          <p className="p4 h3">
-            If you are a donator (or if you are not) - you are welcome to
-            contact with me anytime (see{" "}
-            <NavLink
-              to="/pay"
-              style={({ isActive }) => {
-                return isActive
-                  ? { textDecoration: "none" }
-                  : { textDecoration: "none" };
-              }}
-            >
-              Donate page
-            </NavLink>
-            )
-          </p>
+          <p className="p4 h3">But.. why can't it be opposite?</p>
         </div>
         <div className="contactsection4">
-          <p className="h12 p2">You can write and send me anything</p>
-          <p className="p5 h2">And I promise to reply</p>
+          <p className="h2 p2">
+            Can somebody become popular because he earn lot of money for
+            nothing?
+          </p>
+          <p className="p5 h2">Can people 'create' an internet star?</p>
+          <p className="p5 h3">
+            Do you remember{" "}
+            <a
+              href="https://www.joe.co.uk/news/man-becomes-millionaire-after-taking-selfie-every-day-for-five-years-312593"
+              rel="nofollow"
+            >
+              that guy who took selfies everday
+            </a>{" "}
+            for five years and became millionare?
+          </p>
         </div>
         <div className="contactsection5">
-          <p className="p1 h2">
-            (I still regret not buying Bitcoin 12 years ago for 3$.. Because I
-            thought it was stupid and waste of money)
-          </p>
-          <p className="p3 h2">
+          <p className="p2 h2">This is what I'm talking about. But..</p>
+          <p className="p4 h3">maybe we can push it more?</p>
+          <p className="p4 h2">
             <NavLink
               to="/goals"
               style={({ isActive }) => {
@@ -76,7 +64,7 @@ export const Contact = () => {
                   : { textDecoration: "none" };
               }}
             >
-              See here
+              Help me reach the Goal
             </NavLink>
           </p>
           <p className="p4 h5">#onemilliondollarman</p>
