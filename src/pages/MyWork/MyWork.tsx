@@ -25,10 +25,7 @@ export const MyWork = () => {
         <div className="worksection2">
           <p className="h1 p4">The Goals</p>
           <p className="h3 p5">
-            I am not sure if we will reach a million here or just few bucks.. or
-            maybe we will reach even more, like few millions.. Whatever it will
-            be, I came up with some Goals (something like 'rewards' on
-            Kickstarer or 'perks' on Indiegogo)
+            They're thing I will do after getting a specific amount of money
           </p>
           <p className="h2 p5">Why this is not a crowdfunding page? See FAQ</p>
         </div>
