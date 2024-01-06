@@ -6,7 +6,7 @@ export const Home = () => {
       <div className="hometext">
         <div className="homesectionbanner">
           <div className="h12 p12">Hello stranger!</div>
-          <p className="h5 p3">
+          <p className="h3 p3">
             Welcome to my official social experiment page. Before we start, just
             remember:
           </p>
@@ -51,15 +51,17 @@ export const Home = () => {
         <div className="homesectionphoto"></div>
         <div className="homesection6">
           <p className="p3 h1">Maybe not.</p>
-          <p className="p4 h2">But we need to find answer to one question</p>
+          <p className="p4 h3">
+            But we need to find answer to one more important question
+          </p>
         </div>
         <div className="homesectionphoto"></div>
         <div className="homesection7">
           <p className="p2 h3">
-            How all of these people in the internet that became so famous and
+            How all of these internet celebrities that became so famous and
             rich, do that?
           </p>
-          <p className="p4 h1">I think we all know</p>
+          <p className="p4 h2">I know you know the answer</p>
         </div>
         <div className="homesection8">
           <p className="p2 h1">Partnership & Sponsorship.</p>
@@ -67,8 +69,11 @@ export const Home = () => {
         </div>
         <div className="homesectionphoto"></div>
         <div className="homesection4">
-          <p className="p2 h2">But why THEY can have it and you can't?</p>
-          <p className="p2 h3">
+          <p className="p2 h2">
+            But why companies, brands or just other people pay to Instagram
+            influencers, Youtubers, streamers etc.?
+          </p>
+          <p className="p3 h3">
             <NavLink
               to="/why"
               style={({ isActive }) => {
@@ -77,7 +82,7 @@ export const Home = () => {
                   : { textDecoration: "none" };
               }}
             >
-              Lets see why ➡
+              Why ➡
             </NavLink>
           </p>
           <p className="p4 h5">#onemilliondollarman</p>

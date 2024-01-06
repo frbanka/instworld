@@ -7,42 +7,54 @@ export const MyWork = () => {
         <div className="worksection1">
           <div className="h12 p12">Target is 1 million $</div>
           <p className="h3 p3">
-            I am not sure if we will reach a million or just few bucks.. but
+            I am not sure if we will reach a million or just few thousands.. but
             maybe we will reach even more, like few millions.. Thats why I came
-            up with some different stages, thresholds - things I will do after I
-            get specific amount - The Goals
+            up with some different stages, thresholds - things I want to and I
+            will do after I get specific amount - The Goals
           </p>
         </div>
         <div className="worksection4">
-          <p className="h1 p4">Important!</p>
+          <p className="h12 p4">Important!</p>
           <p className="h3 p3">
-            Every single donate will be listed on this website (on Donate page)
-            - with a donors name, nick, instagram nickname, link to your youtube
-            channel, your OF page - whatever you leave me in the donate
-            feedback. <br></br>
+            Every single donate will be listed on this website (on The Hall of
+            Fame page) - with a donors name, nick, instagram nickname, link to
+            your youtube channel, your OF page - whatever you leave me in the
+            donate feedback. <br></br>
             Even your photo.
+          </p>
+          <p className="h4 p3">
+            And remember from the beginning - you don't have to pay me, you can
+            just follow me on Instagram or X. Share this website. Write to me.
+            Or none of this, do nothing. Whatever you choose - I support your
+            choice.
           </p>
         </div>
         <div className="worksection2">
           <p className="h1 p4">The Goals</p>
           <p className="h3 p5">
-            There are things I will do after getting a specific amount of money
+            There are things I want to do after I get a specific amount of
+            money. Things I always wanted to do, but I couldn't affort it.
           </p>
-          <p className="h2 p5">Things I will buy using donated money</p>
+          <p className="h3 p5">
+            Especially, things I will buy using donated money. Things that will
+            change me and my life and my friends life.
+          </p>
         </div>
         <div className="worksection3">
           <p className="h2 p3">
             Coming up with the Goals I wanted it to be something that makes this
-            experiment fun and worth following later
+            experiment fun and worth following later.
           </p>
           <p className="p4 h3">
-            Things that will change my life. From regular person to someone who
-            can effort anything
+            Something that will make your participation and generosity, lets
+            say, worth the effort.
           </p>
         </div>
         <div className="worksection4">
           <p className="h12 p2">So here are the Goals</p>
-          <p className="p5 h4">(the value is the sum of all donations)</p>
+          <p className="p5 h4">
+            You can follow their realization on my social media profiles.
+          </p>
         </div>
         <div className="worksection5">
           <p className="p5 h3">Starting with 10$</p>

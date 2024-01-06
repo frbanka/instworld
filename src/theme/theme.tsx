@@ -10,8 +10,8 @@ export const theme = createTheme({
             height: "50px",
             textDecoration: "none",
             textDecorationStyle: "none",
-            fontFamily: "LilitaOne",
-            fontSize: "18px",
+            fontFamily: "Oswald",
+            fontSize: "20px",
           },
           "&.Mui-selected:hover": {
             backgroundColor: "transparent",
