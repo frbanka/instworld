@@ -22,20 +22,18 @@ code {
 }
 p {
   font-family: Oswald;
-  font-size: 28px;
+  font-size: 32px;
   padding-left: 150px;
   padding-right: 150px;
-  letter-spacing: 2px;
-  line-height: 40px;
+  line-height: 42px;
 }
 .h1 {
   font-size: 55px;
   line-height: 55px;
 }
 .h12 {
-  font-size: 65px;
+  font-size: 60px;
   font-family: Ubuntu;
-  line-height: 55px;
 }
 .h2 {
   font-size: 45px;
@@ -47,7 +45,10 @@ p {
   font-size: 28px;
 }
 .h5 {
-  font-size: 22px;
+  font-size: 24px;
+}
+.h6 {
+  font-size: 18px;
 }
 .p1 {
   padding-top: 300px;
@@ -63,4 +64,10 @@ p {
 }
 .p4 {
   padding-top: 25px;
+}
+.p5 {
+  padding-top: 15px;
+}
+ul {
+  list-style: none;
 }

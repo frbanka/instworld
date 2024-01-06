@@ -1,5 +1,5 @@
 .funcontainer {
-  font-family: Acme;
+  font-family: Oswald;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +27,7 @@
   justify-content: center;
   background-color: rgb(219, 240, 126);
   width: 1400px;
-  height: 800px;
+  height: 900px;
 }
 .funsection3 {
   display: flex;
@@ -44,7 +44,7 @@
   align-items: center;
   background-color: rgba(255, 240, 223, 0.884);
   width: 1400px;
-  height: 450px;
+  height: 550px;
 }
 .funsection5 {
   display: flex;
