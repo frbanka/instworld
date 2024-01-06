@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./fonts/Acme.ttf";
-import "./fonts/LilitaOne.ttf";
+import "./fonts/Oswald.ttf";
+import "./fonts/Ubuntu.ttf";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";

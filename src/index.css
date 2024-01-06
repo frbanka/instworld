@@ -1,18 +1,17 @@
 @font-face {
-  font-family: "LilitaOne";
-  src: local("LilitaOne"), url("./fonts/LilitaOne.ttf") format("truetype");
+  font-family: "Ubuntu";
+  src: local("Ubuntu"), url("./fonts/Ubuntu.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Acme";
-  src: local("Acme"), url("./fonts/Acme.ttf") format("truetype");
+  font-family: "Oswald";
+  src: local("Oswald"), url("./fonts/Oswald.ttf") format("truetype");
 }
 
 body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, "LilitaOne", "Acme",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Ubuntu", "Oswald", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -22,7 +21,7 @@ code {
     monospace;
 }
 p {
-  font-family: Acme;
+  font-family: Oswald;
   font-size: 28px;
   padding-left: 150px;
   padding-right: 150px;
