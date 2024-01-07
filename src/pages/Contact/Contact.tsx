@@ -41,9 +41,6 @@ export const Contact = () => {
             to get your attention for you to support them, share their work and
             pay them
           </p>
-          <p className="p4 h4">
-            'Money is not a thing, but a social relation' - Karl Marx
-          </p>
           <p className="p4 h2">But.. can it be opposite?</p>
         </div>
         <div className="contactsection4">

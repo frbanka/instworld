@@ -16,9 +16,37 @@
   text-align: center;
 }
 .homesectionbanner {
+  display: flex;
+  flex-direction: row;
   background-color: bisque;
   width: 1400px;
   height: 800px;
+}
+.banner_title {
+  padding-left: 120px;
+}
+.banner_title_name {
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: italic;
+  padding-left: 120px;
+}
+.banner_left {
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-start;
+  text-align: left;
+}
+.banner_right {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+}
+.banner_img {
+  width: 500px;
+  height: 500px;
 }
 .homesection2 {
   display: flex;
@@ -35,7 +63,26 @@
   justify-content: center;
   background-color: rgb(255, 235, 211);
   width: 1400px;
-  height: 550px;
+  height: 900px;
+}
+.experiment {
+  padding-bottom: 80px;
+}
+.experiment_desc {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.ex_description {
+  padding-right: 100px;
+}
+.experiment_img {
+  padding-right: 100px;
+}
+
+.ex_img {
+  width: 500px;
+  height: 400px;
 }
 .homesection4 {
   display: flex;
