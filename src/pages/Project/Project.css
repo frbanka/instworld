@@ -1,5 +1,5 @@
-.homecontainer {
-  font-family: Acme;
+.projectcontainer {
+  font-family: Oswald;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,14 +8,14 @@
   height: 100%;
   background-color: white;
 }
-.hometext {
+.projecttext {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
 }
-.homesectionbanner {
+.projectsectionbanner {
   display: flex;
   flex-direction: row;
   background-color: rgb(255, 255, 255);
@@ -27,7 +27,8 @@
 }
 .banner_title_name {
   font-family: Ubuntu;
-  font-size: 22px;
+  font-size: 20px;
+  font-style: italic;
   padding-left: 120px;
 }
 .banner_left {
@@ -45,43 +46,24 @@
 }
 .banner_img {
   width: 500px;
-  height: 400px;
-}
-
-.homesectionphoto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(255, 255, 255);
-  width: 1400px;
   height: 500px;
 }
-.homesection2 {
+.projectsection2 {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 193, 116);
   width: 1400px;
-  height: 500px;
+  height: 400px;
 }
-.homesection3 {
+.projectsection3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 235, 211);
   width: 1400px;
   height: 900px;
-}
-.home_footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(255, 240, 223, 0.884);
-  width: 100%;
-  max-width: 1920px;
-  height: 650px;
 }
 .experiment {
   padding-bottom: 80px;
@@ -101,4 +83,54 @@
 .ex_img {
   width: 500px;
   height: 400px;
+}
+.projectsection4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 240, 223, 0.884);
+  width: 1400px;
+  height: 650px;
+}
+.projectsection5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(231, 255, 143, 0.781);
+  width: 1400px;
+  height: 400px;
+}
+.projectsection6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(239, 255, 179, 0.781);
+  width: 1400px;
+  height: 450px;
+}
+.projectsection7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 249, 159, 0.781);
+  width: 1400px;
+  height: 600px;
+}
+.projectsection8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  width: 1400px;
+  height: 600px;
+}
+.projectsectionphoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 500px;
 }

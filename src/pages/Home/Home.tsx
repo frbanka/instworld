@@ -3,22 +3,15 @@ import { NavLink } from "react-router-dom";
 import pentimg from "../../graphics/pentagram.jpg";
 export const Home = () => {
   return (
-    <div className="homecontainer">
-      <div className="hometext">
+    <div className="hometext">
+      <div className="homecontainer">
         <div className="homesectionbanner">
           <div className="banner_left">
             <div className="banner_title h12">
-              Money is not a thing, but a social relation
+              "Money is not a thing, but a social relation"
             </div>
             <div className="banner_title_name">Karl Marx</div>
-            <p className="h3">
-              Welcome to my official social experiment page. Before we start,
-              just remember:
-            </p>
-            <p className="h4">
-              You don't have to do anything here, you don't have to download,
-              buy, donate money, give feeback - nothing!
-            </p>
+            <p className="h3">Welcome to my official social experiment page.</p>
           </div>
           <div className="banner_right">
             <img src={pentimg} alt="pent" className="banner_img"></img>
@@ -26,9 +19,7 @@ export const Home = () => {
         </div>
         <div className="homesectionphoto"></div>
         <div className="homesection2">
-          <p className="h2">
-            Being a part of this experiment it is your choice
-          </p>
+          <p className="h2"></p>
         </div>
         <div className="homesectionphoto"></div>
         <div className="homesection3">
@@ -48,62 +39,6 @@ export const Home = () => {
               <img src={pentimg} alt="pent" className="ex_img"></img>
             </div>
           </div>
-        </div>
-        <div className="homesectionphoto"></div>
-        <div className="homesection4">
-          <p className="h2 p3">
-            Or maybe ONLY when you work hard every day and night?
-          </p>
-          <p className="p4 h3">
-            Or maybe.. you need to become an Internet Star?
-          </p>
-          <p className="p4 h4">
-            Become a streamer on Twitch or Youtube, be instagram model or
-            influencer? Tiktoker?<br></br>Start making ASMR videos?
-          </p>
-        </div>
-        <div className="homesection5">
-          <p className="p3 h2">Or maybe start an OnlyFans page?</p>
-          <p className="p3 h3">With your nude photos?</p>
-        </div>
-        <div className="homesectionphoto"></div>
-        <div className="homesection6">
-          <p className="p3 h1">Maybe not.</p>
-          <p className="p4 h3">
-            But we need to find answer to one more important question
-          </p>
-        </div>
-        <div className="homesectionphoto"></div>
-        <div className="homesection7">
-          <p className="p2 h3">
-            How all of these internet celebrities that became so famous and
-            rich, do that?
-          </p>
-          <p className="p4 h2">I know you know the answer</p>
-        </div>
-        <div className="homesection8">
-          <p className="p2 h1">Partnership & Sponsorship.</p>
-          <p className="p3 h2">And donations.</p>
-        </div>
-        <div className="homesectionphoto"></div>
-        <div className="homesection4">
-          <p className="p2 h2">
-            But why companies, brands or just other people pay to Instagram
-            influencers, Youtubers, streamers etc.?
-          </p>
-          <p className="p3 h3">
-            <NavLink
-              to="/why"
-              style={({ isActive }) => {
-                return isActive
-                  ? { textDecoration: "none" }
-                  : { textDecoration: "none" };
-              }}
-            >
-              Why ➡
-            </NavLink>
-          </p>
-          <p className="p4 h5">#onemilliondollarman</p>
         </div>
       </div>
     </div>

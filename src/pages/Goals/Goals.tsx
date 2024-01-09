@@ -1,6 +1,5 @@
-import { NavLink } from "react-router-dom";
-import "./MyWork.css";
-export const MyWork = () => {
+import "./Goals.css";
+export const Goals = () => {
   return (
     <div className="workcontainer">
       <div className="worktext">

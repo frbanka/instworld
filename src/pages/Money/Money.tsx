@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import "./Contact.css";
+import "./Money.css";
 
-export const Contact = () => {
+export const Money = () => {
   return (
     <div className="contactcontainer">
       <div className="contacttext">

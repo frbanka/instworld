@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import "./Fun.css";
-export const Fun = () => {
+import "./Donate.css";
+export const Donate = () => {
   return (
     <div className="funcontainer">
       <div className="funtext">

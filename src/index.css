@@ -8,9 +8,9 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
+  padding: 0;
   margin: 0 auto;
+  width: 100vw;
   font-family: -apple-system, BlinkMacSystemFont, "Ubuntu", "Oswald", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

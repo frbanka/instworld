@@ -1,6 +1,6 @@
-import "./About.css";
+import "./Why.css";
 import { NavLink } from "react-router-dom";
-const About = () => {
+const Why = () => {
   return (
     <div className="aboutcontainer">
       <div className="abouttext">
@@ -137,4 +137,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Why;
