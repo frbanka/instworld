@@ -17,7 +17,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 400px;
+  height: 500px;
   background: linear-gradient(
     90deg,
     rgba(3, 36, 0, 1) 0%,
@@ -28,21 +28,71 @@
 .footer_pack {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
   max-width: 1920px;
-  padding-top: 100px;
-  gap: 350px;
+  padding: 100px 50px 0px 50px;
+  gap: 120px;
 }
 .footer_item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   max-width: 500px;
+}
+.footer_item_title {
+  font-size: 34px;
+  font-family: Ubuntu;
+  letter-spacing: 0.5px;
+  font-style: normal;
+}
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.footer_links li {
+  background: -webkit-linear-gradient(
+    0deg,
+    #33df24 0%,
+    rgb(28, 180, 11) 50%,
+    #139e1f 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+a:link {
+  text-decoration: none;
+}
+.footer_links li:hover {
+  background: -webkit-linear-gradient(
+    0deg,
+    #23741b 0%,
+    rgb(28, 88, 21) 50%,
+    #07420c 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .footer_credits {
   padding: 100px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.footer_text {
+  font-family: Ubuntu;
+  letter-spacing: 0.05px;
+  font-size: 16px;
+}
+.fstyle1 {
+  color: rgba(85, 107, 47, 0.582);
+}
+.fstyle2 {
+  padding-left: 300px;
+  color: rgb(150, 150, 150);
 }
 .footer_links {
   display: flex;
@@ -51,4 +101,54 @@
   list-style: none;
   font-size: 16px;
   text-align: left;
+}
+.footer_socials {
+  color: rgb(87, 87, 87);
+}
+.footer_banner_pack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 150px;
+}
+.footer_banner-title {
+  font-size: 46px;
+  font-family: Ubuntu;
+  letter-spacing: 0.5px;
+  font-style: normal;
+  color: white;
+}
+.footer_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0px 0px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #f0f0f0 100%);
+  background-color: #ffffff;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #00a105;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  width: 280px;
+  height: 60px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #c0d4bd;
+}
+.footer_button:hover {
+  background: linear-gradient(to bottom, #f0f0f0 15%, #ffffff 100%);
+  background-color: #f0f0f0;
+}
+.footer_button:active {
+  position: relative;
+  top: 1px;
+}
+.footer_banner-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
 }

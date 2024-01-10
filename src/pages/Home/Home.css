@@ -1,5 +1,5 @@
 .homecontainer {
-  font-family: Acme;
+  font-family: Oswald;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,11 +24,40 @@
 }
 .banner_title {
   padding-left: 120px;
-}
-.banner_title_name {
+  font-size: 62px;
   font-family: Ubuntu;
-  font-size: 22px;
-  padding-left: 120px;
+}
+.banner_title_descr {
+  font-family: Oswald;
+  font-size: 24px;
+  padding: 30px 0px 40px 120px;
+}
+.banner_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 117px;
+  box-shadow: inset 0px 0px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #4da02c 5%, #136106 100%);
+  background-color: #408525;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  width: 280px;
+  height: 60px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #c0d4bd;
+}
+.banner_button:hover {
+  background: linear-gradient(to bottom, #085c1a 15%, #0a6616 100%);
+  background-color: #0c830c;
+}
+.banner_button:active {
+  position: relative;
+  top: 1px;
 }
 .banner_left {
   padding-right: 100px;
@@ -47,7 +76,10 @@
   width: 500px;
   height: 400px;
 }
-
+.banner_welcome {
+  font-size: 18px;
+  text-transform: uppercase;
+}
 .homesectionphoto {
   display: flex;
   flex-direction: column;

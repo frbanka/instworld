@@ -7,11 +7,19 @@ export const Home = () => {
       <div className="homecontainer">
         <div className="homesectionbanner">
           <div className="banner_left">
-            <div className="banner_title h12">
+            <p className="banner_welcome">
+              Welcome to official social experiment page.
+            </p>
+            <div className="banner_title">
               "Money is not a thing, but a social relation"
             </div>
-            <div className="banner_title_name">Karl Marx</div>
-            <p className="h3">Welcome to my official social experiment page.</p>
+            <div className="banner_title_descr">
+              Karl Marx once said. That pretty simple sentence is the main
+              reason why this page and project came to life.
+            </div>
+            <a href="/project" className="banner_button">
+              JOIN IN
+            </a>
           </div>
           <div className="banner_right">
             <img src={pentimg} alt="pent" className="banner_img"></img>
