@@ -1,16 +1,16 @@
 import "./Project.css";
 import { NavLink } from "react-router-dom";
-import pentimg from "../../graphics/pentagram.jpg";
+import moneybag from "../../graphics/money-bag.jpg";
 export const Project = () => {
   return (
     <div className="projecttext">
       <div className="projectcontainer">
         <div className="projectsectionbanner">
-          <div className="banner_left">
-            <div className="banner_title h12">
+          <div className="prbanner_left">
+            <div className="prbanner_title h12">
               Money is not a thing, but a social relation
             </div>
-            <div className="banner_title_name">Karl Marx</div>
+            <div className="prbanner_title_name">Karl Marx</div>
             <p className="h3">
               Welcome to my official social experiment page. Before we start,
               just remember:
@@ -20,8 +20,8 @@ export const Project = () => {
               buy, donate money, give feeback - nothing!
             </p>
           </div>
-          <div className="banner_right">
-            <img src={pentimg} alt="pent" className="banner_img"></img>
+          <div className="prbanner_right">
+            <img src={moneybag} alt="pent" className="prbanner_img"></img>
           </div>
         </div>
         <div className="projectsectionphoto"></div>
@@ -32,11 +32,11 @@ export const Project = () => {
         </div>
         <div className="projectsectionphoto"></div>
         <div className="projectsection3">
-          <div className="experiment">
+          <div className="prexperiment">
             <p className="h1">So.. what is this experiment about?</p>
           </div>
-          <div className="experiment_desc">
-            <div className="ex_description">
+          <div className="prexperiment_desc">
+            <div className="prex_description">
               <p className="p3 h4">Let me tell you a short story.</p>
               <p className="p4 h5">
                 One random day I woke up with a tought: 'can any random, regular
@@ -44,8 +44,8 @@ export const Project = () => {
                 winning a lottery, just by doing nothing?'
               </p>
             </div>
-            <div className="experiment_img">
-              <img src={pentimg} alt="pent" className="ex_img"></img>
+            <div className="prexperiment_img">
+              <img src={moneybag} alt="pent" className="prex_img"></img>
             </div>
           </div>
         </div>

@@ -22,16 +22,16 @@
   width: 1400px;
   height: 800px;
 }
-.banner_title {
+.prbanner_title {
   padding-left: 120px;
 }
-.banner_title_name {
+.prbanner_title_name {
   font-family: Ubuntu;
   font-size: 20px;
   font-style: italic;
   padding-left: 120px;
 }
-.banner_left {
+.prbanner_left {
   padding-right: 100px;
   display: flex;
   flex-direction: column;
@@ -39,13 +39,13 @@
   align-content: flex-start;
   text-align: left;
 }
-.banner_right {
+.prbanner_right {
   display: flex;
   align-items: center;
   padding-right: 100px;
 }
-.banner_img {
-  width: 500px;
+.prbanner_img {
+  width: 650px;
   height: 500px;
 }
 .projectsection2 {
@@ -65,22 +65,22 @@
   width: 1400px;
   height: 900px;
 }
-.experiment {
+.prexperiment {
   padding-bottom: 80px;
 }
-.experiment_desc {
+.prexperiment_desc {
   display: flex;
   flex-direction: row;
   text-align: left;
 }
-.ex_description {
+.prex_description {
   padding-right: 100px;
 }
-.experiment_img {
+.prexperiment_img {
   padding-right: 100px;
 }
 
-.ex_img {
+.prex_img {
   width: 500px;
   height: 400px;
 }

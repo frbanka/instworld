@@ -1,6 +1,11 @@
 import "./Home.css";
 import { NavLink } from "react-router-dom";
-import pentimg from "../../graphics/pentagram.jpg";
+import onemilliondollars from "../../graphics/1milliondollars.png";
+import stock from "../../graphics/stock.jpg";
+import guywall from "../../graphics/guy_wall.jpg";
+import experiment from "../../graphics/experiment.jpg";
+import sky3 from "../../graphics/sky3.jpg";
+import moneyhand from "../../graphics/money-hand.jpg";
 export const Home = () => {
   return (
     <div className="hometext">
@@ -22,31 +27,62 @@ export const Home = () => {
             </a>
           </div>
           <div className="banner_right">
-            <img src={pentimg} alt="pent" className="banner_img"></img>
+            <img
+              src={onemilliondollars}
+              alt="pent"
+              className="banner_img"
+            ></img>
           </div>
         </div>
-        <div className="homesectionphoto"></div>
         <div className="homesection2">
-          <p className="h2"></p>
+          <img
+            src={experiment}
+            alt="experiment"
+            className="experiment_photo"
+          ></img>
+          <img src={guywall} alt="guy" className="guywall_photo"></img>
         </div>
-        <div className="homesectionphoto"></div>
+        <div className="homesectionphoto">
+          <img src={stock} alt="stock" className="stock_photo"></img>
+          <div className="stock_text">
+            <div className="h2">What is money?</div>
+            <div className="h6 p4">
+              As Wikipedia says: money is any item or verifiable record that is
+              generally accepted as payment for goods and services and repayment
+              of debts, such as taxes, in a particular country or socio-economic
+              context{" "}
+            </div>
+            <div className="h2 p4">Did you know?</div>
+            <div className="h6 p4">
+              It has been reported that there is $37.4 Trillion worth of money
+              in the world. However, with all the money that is not able to be
+              tracked, it is estimated that the true figure is closer to $86
+              Trillion, and when you include Cryptocurrencies the figure is
+              almost $1.2 Quadrillion (1,200,000,000,000,000).
+            </div>
+          </div>
+        </div>
         <div className="homesection3">
           <div className="experiment">
-            <p className="h1">So.. what is this experiment about?</p>
+            <div className="h2">$37.4 Trillion worth of money in the world</div>
           </div>
-          <div className="experiment_desc">
-            <div className="ex_description">
-              <p className="p3 h4">Let me tell you a short story.</p>
-              <p className="p4 h5">
-                One random day I woke up with a tought: 'can any random, regular
-                person, become a milionare without having any inheritance or
-                winning a lottery, just by doing nothing?'
-              </p>
+        </div>
+        <div className="homesection4">
+          <div className="much_desc">
+            <div className="much_description">
+              <div className="h2">Is it much?</div>
+              <div className="p4 h5">
+                Taking the total global population number (7.888 billion) that
+                gives us approximately $4,747 per person
+              </div>
             </div>
-            <div className="experiment_img">
-              <img src={pentimg} alt="pent" className="ex_img"></img>
+            <div className="much_photo">
+              <img src={moneyhand} alt="pent" className="moneyhand"></img>
             </div>
           </div>
+        </div>
+        <div className="homesectionsky">
+          <img src={sky3} alt="guy" className="sky3"></img>
         </div>
       </div>
     </div>

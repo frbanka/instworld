@@ -30,6 +30,7 @@ p {
 .h1 {
   font-size: 55px;
   line-height: 55px;
+  font-family: Ubuntu;
 }
 .h12 {
   font-size: 60px;
@@ -37,6 +38,7 @@ p {
 }
 .h2 {
   font-size: 45px;
+  font-family: Ubuntu;
 }
 .h3 {
   font-size: 35px;
@@ -48,7 +50,7 @@ p {
   font-size: 24px;
 }
 .h6 {
-  font-size: 18px;
+  font-size: 20px;
 }
 .p1 {
   padding-top: 300px;
@@ -60,13 +62,13 @@ p {
   padding-top: 150px;
 }
 .p3 {
-  padding-top: 50px;
+  padding-top: 70px;
 }
 .p4 {
-  padding-top: 25px;
+  padding-top: 40px;
 }
 .p5 {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 ul {
   list-style: none;
