@@ -51,6 +51,24 @@
   text-decoration: none;
   text-shadow: 0px -1px 0px #c0d4bd;
 }
+.hs2323_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0px 0px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #4da02c 5%, #136106 100%);
+  background-color: #408525;
+  border-radius: 7px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: bold;
+  width: 280px;
+  height: 60px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #c0d4bd;
+}
 .banner_button:hover {
   background: linear-gradient(to bottom, #085c1a 15%, #0a6616 100%);
   background-color: #0c830c;
@@ -103,7 +121,6 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
-  padding-top: 50px;
   width: 1400px;
   height: 780px;
 }
@@ -117,12 +134,37 @@
 }
 .homesection3 {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 600px;
+}
+.homesection23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 400px;
+}
+.homesection2323 {
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: rgb(255, 255, 255);
   width: 1400px;
   height: 600px;
+}
+.hs23 {
+  width: 700px;
+}
+.hs2323 {
+  width: 1000px;
+  padding-bottom: 70px;
 }
 .homesection4 {
   display: flex;
