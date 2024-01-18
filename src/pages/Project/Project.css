@@ -15,107 +15,153 @@
   align-items: center;
   text-align: center;
 }
-.projectsectionbanner {
+.projectsection1 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(255, 255, 255);
   width: 1400px;
-  height: 800px;
+  height: 500px;
+  padding-bottom: 150px;
 }
-.prbanner_title {
-  padding-left: 120px;
+.prbarber {
+  width: 900px;
 }
-.prbanner_title_name {
-  font-family: Ubuntu;
-  font-size: 20px;
-  font-style: italic;
-  padding-left: 120px;
+.prbarber2 {
+  width: 1000px;
 }
-.prbanner_left {
+.projectsection12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 150px;
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 900px;
+}
+.pr12_left {
   padding-right: 100px;
+  padding-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: flex-start;
   text-align: left;
 }
-.prbanner_right {
+.pr12_right {
   display: flex;
   align-items: center;
   padding-right: 100px;
 }
-.prbanner_img {
-  width: 650px;
-  height: 500px;
+.pr12_img {
+  width: 550px;
+  height: 800px;
 }
 .projectsection2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 193, 116);
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(3, 36, 0, 1) 0%,
+    rgba(9, 121, 37, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   width: 1400px;
   height: 400px;
+}
+.projectsection23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 1400px;
+  height: 600px;
 }
 .projectsection3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 235, 211);
+  background-color: rgb(255, 255, 255);
   width: 1400px;
-  height: 900px;
+  height: 1200px;
 }
-.prexperiment {
-  padding-bottom: 80px;
+.pr3_title {
+  padding-bottom: 200px;
 }
-.prexperiment_desc {
+.pr3_desc {
   display: flex;
   flex-direction: row;
   text-align: left;
 }
-.prex_description {
+.pr3_description {
   padding-right: 100px;
 }
-.prexperiment_img {
-  padding-right: 100px;
+.pr3_img_container {
+  padding-left: 100px;
 }
-
-.prex_img {
+.pr3_img {
   width: 500px;
-  height: 400px;
+  height: 700px;
 }
 .projectsection4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 240, 223, 0.884);
+  background-color: rgba(255, 255, 255, 0.884);
   width: 1400px;
-  height: 650px;
+  height: 800px;
 }
+.pr4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1000px;
+  padding-top: 150px;
+}
+
 .projectsection5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(231, 255, 143, 0.781);
+  background-color: rgba(255, 255, 255, 0.781);
   width: 1400px;
-  height: 400px;
+  height: 900px;
 }
 .projectsection6 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  background-color: rgba(239, 255, 179, 0.781);
+  background-color: rgba(255, 255, 255, 0.781);
   width: 1400px;
-  height: 450px;
+  height: 700px;
+}
+.pr6 {
+  text-align: left;
+  width: 600px;
+  padding-right: 50px;
 }
 .projectsection7 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 249, 159, 0.781);
+  background-color: rgba(255, 255, 255, 0.781);
   width: 1400px;
-  height: 600px;
+  height: 1000px;
+}
+.pr7_social {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-between;
 }
 .projectsection8 {
   display: flex;
@@ -132,5 +178,23 @@
   justify-content: center;
   background-color: rgb(255, 255, 255);
   width: 1400px;
-  height: 500px;
+  height: 600px;
+}
+.dinner_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dinner {
+  width: 1000px;
+  padding-top: 150px;
+}
+.dinnermaking {
+  width: 800px;
+}
+.manyhands {
+  width: 1100px;
+}
+.moneyinhand {
+  width: 600px;
 }
