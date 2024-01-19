@@ -153,14 +153,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.781);
-  width: 1400px;
-  height: 1000px;
+  width: 1300px;
+  height: 1500px;
 }
 .pr7_social {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
 }
 .projectsection8 {
@@ -197,4 +198,13 @@
 }
 .moneyinhand {
   width: 600px;
+}
+.time {
+  width: 150px;
+}
+.trust {
+  width: 190px;
+}
+.will {
+  width: 220px;
 }

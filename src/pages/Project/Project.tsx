@@ -6,6 +6,9 @@ import dinner from "../../graphics/dinner.jpg";
 import dinnermaking from "../../graphics/dinner-making.jpg";
 import manyhands from "../../graphics/many-hands.jpg";
 import moneyinhand from "../../graphics/money-in-hand.jpg";
+import time from "../../graphics/time.png";
+import trust from "../../graphics/trust.png";
+import will from "../../graphics/will.png";
 export const Project = () => {
   return (
     <div className="projecttext">
@@ -158,19 +161,24 @@ export const Project = () => {
         <div className="projectsection7">
           <div className="pr7">
             <div className="p2 h1">
-              So finally - what is the social relation?
+              So finally - what is the "social relation"?
             </div>
             <div className="p2 pr7_social">
-              <div className="p3 h3">It is Time</div>
+              <img src={time} alt="time" className="time"></img>
+              <div className="p5 h2">It is Time</div>
               <div className="p5 h5">
-                The time - your time you can use for someone
+                The time (your time) you can devote to someone
               </div>
-              <div className="p3 h3">Trust</div>
+              <img src={trust} alt="trust" className="p3 trust"></img>
+              <div className="p5 h2">Trust</div>
               <div className="p5 h5">
-                so he or she can be 100% sure and not to be dissapointed
+                so that someone can be 100% sure and not be disappointed
               </div>
-              <div className="p3 h3">and Willingness</div>
-              <div className="p5 h5">Trust</div>
+              <img src={will} alt="will" className="p3 will"></img>
+              <div className="p5 h2">and Willingness</div>
+              <div className="p5 h5">
+                Sincere desire, will to take any action
+              </div>
             </div>
           </div>
         </div>
