@@ -5,17 +5,23 @@ import { Money } from "./Money/Money";
 import { Goals } from "./Goals/Goals";
 import { Donate } from "./Donate/Donate";
 import { Home } from "./Home/Home";
+import Idea from "./Idea/Idea";
 
 const pagesData: routerType[] = [
+  {
+    path: "",
+    element: <Home />,
+    title: "home",
+  },
   {
     path: "/project",
     element: <Project />,
     title: "project",
   },
   {
-    path: "",
-    element: <Home />,
-    title: "home",
+    path: "/idea",
+    element: <Idea />,
+    title: "idea",
   },
   {
     path: "why",

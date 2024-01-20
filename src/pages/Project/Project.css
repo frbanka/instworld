@@ -167,9 +167,10 @@
 .projectsection8 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  background-color: bisque;
-  width: 1400px;
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
   height: 600px;
 }
 .projectsectionphoto {
@@ -207,4 +208,7 @@
 }
 .will {
   width: 220px;
+}
+.beach {
+  width: 1400px;
 }

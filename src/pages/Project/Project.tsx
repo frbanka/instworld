@@ -9,6 +9,7 @@ import moneyinhand from "../../graphics/money-in-hand.jpg";
 import time from "../../graphics/time.png";
 import trust from "../../graphics/trust.png";
 import will from "../../graphics/will.png";
+import beach from "../../graphics/beach.jpg";
 export const Project = () => {
   return (
     <div className="projecttext">
@@ -27,18 +28,17 @@ export const Project = () => {
               Wikipedia. People use money to get something done from someone
               else.
             </div>
-            <div className="p5 h5">
+            <div className="p4 h5">
               The first example that comes to mind: when you go to barber you
               want him to cut your hair. If he is your friend - he can do it for
               free. But if he's a stranger - you have to give him something for
-              it. For donating his time for you. For using his skills and making
-              you look good and happy.
+              it. For donating his time for you and using his skills.
             </div>
-            <div className="p5 h4">Why he can't do it for free?</div>
-            <div className="p5 h5">
-              Because he knows that he can get money for that one way or
-              another, or do something else, or he can meet with his friends at
-              the same time instead of cutting your hair.
+            <div className="p4 h4">Why he can't do it for free?</div>
+            <div className="p4 h5">
+              Because he knows that there are people willing to pay for this
+              service, for his time - time he could use, for example, to meet
+              with his friends.
             </div>
           </div>
           <div className="pr12_right">
@@ -46,12 +46,12 @@ export const Project = () => {
           </div>
         </div>
         <div className="projectsection2">
-          <p className="h2">So, the barber gets your money and what then?</p>
+          <p className="h2">So, you give barber money and what then?</p>
         </div>
         <div className="projectsection23">
           <div className="prbarber h3">
-            Let's say, the barber takes the money and enters the groceries
-            store. He wants to buy food and make a dinner.
+            Lets say the barber wants to use the money at the groceries - he
+            wants to buy food and make a dinner.
           </div>
         </div>
         <div className="projectsection23">
@@ -60,16 +60,16 @@ export const Project = () => {
           </div>
         </div>
         <div className="projectsection23">
-          <div className="prbarber2 p3 h3">
-            That's right, "buy". Why food costs money?
-          </div>
-          <div className="prbarber2 p4 h4">
-            Every fruit and vegetable that grows on Earth, every animal that
-            lives in here - on the planet that is own by no one (or maybe it
-            is..?) - it belongs to every inhabitant of the Earth.
+          <div className="prbarber2 p3 h2">
+            That's right, 'buy'. Why food costs money?
           </div>
           <div className="prbarber2 p3 h4">
-            So why he needs the money? Why he needs money to buy a food?
+            You could say, that every fruit and vegetable that grows on Earth,
+            every animal that lives on this planet - it belongs to every
+            inhabitant of the Earth.
+          </div>
+          <div className="prbarber2 p3 h4">
+            So why you have to pay for it? Why you need money to buy a food?
           </div>
         </div>
         <div className="projectsection23">
@@ -83,7 +83,7 @@ export const Project = () => {
         </div>
         <div className="projectsection3">
           <div className="pr3_title">
-            <div className="h1">Because someone took their time to do this</div>
+            <div className="h1">Because someone took their time</div>
           </div>
           <div className="pr3_desc">
             <div className="pr3_img_container">
@@ -91,33 +91,33 @@ export const Project = () => {
             </div>
             <div className="pr3_description">
               <p className="p3 h3">
-                Someone planted it, took care of it and collect it
+                Someone took the time to plant, care for and harvest
               </p>
               <p className="p5 h5">
-                It requires a lot of work, time and willingness. The outcome of
-                this three things is that you can easily go to grocery and pick
+                It required a lot of work, time and willingness. And the outcome
+                of this 3 things is that you can easily go to grocery and pick
                 whatever you like.
               </p>
               <p className="p5 h5">
-                You can plant your own food - plant vegetables, raise animals
-                and have food "for free". But most people prefer to pay for it
-                to someone else, just to save their time and health.
+                Of course, you can plant your own vegetables and fruits, raise
+                animals and have food 'for free'. But most people prefer to pay
+                for someone else to do it, just to save their time and energy.
               </p>
             </div>
           </div>
         </div>
         <div className="projectsection4">
           <div className="pr4">
-            <div className="h2 p3">
-              What is "money as social relation" in this barber-example?
-            </div>
-            <div className="p4 h4">
-              You see, money are usually only a reflection of two things - the
-              quantity of a given product or just the time it takes to provide a
-              given service.
+            <div className="h2 p4">
+              Can you see money as social relation in this example?
             </div>
             <div className="p3 h4">
-              To make it simple, money is just a symbol.
+              Money are usually only a reflection of few things - the quantity
+              of a product you want to have or just the time it takes to provide
+              a given service. Or both - time it takes to make a product.
+            </div>
+            <div className="p3 h4">
+              You can agree with me that money is just a symbol.
             </div>
             <div className="p3 h3">A symbol of having something in return.</div>
           </div>
@@ -129,25 +129,25 @@ export const Project = () => {
         </div>
         <div className="projectsection2">
           <p className="h2">
-            Every type of money in different countries gives you one very
-            important thing - a promise. A warranty.
+            If you get paid for doing something - you can pay then someone else
+            to do something.
           </p>
         </div>
         <div className="projectsection6">
           <div className="pr6">
             <div className="p4 h3">
-              A warranty that you can and you will have something in return for
-              sure, 100%.
+              But there is one important thing that money provides - a warranty.
+              A promise.
             </div>
             <div className="p4 h5">
-              I mean, you can tell barber that you will clean his house next day
-              in exchange for cutting the hair. Or do something else he needs to
-              be done. Maybe you are a tattoo artist and you will get him a
-              tattoo? But what if you won't? Or he change his mind?
+              A promise, that you can and you will have something in return for
+              sure, 100%. I mean, if you are a tattoo artist you can offer the
+              barber a tattoo service for cutting the hair. But what if you
+              trick him? Or what if he just doesn't want tattoo?
             </div>
             <div className="p4 h5">
-              Thats why you give him this little paper thing. And he can
-              exchange it for a tattoo whenever he wants.
+              Thats why we use money. We can exchange it for a tattoo or for
+              whatever and whenever we want.
             </div>
           </div>
           <div className="pr6_img">
@@ -161,7 +161,7 @@ export const Project = () => {
         <div className="projectsection7">
           <div className="pr7">
             <div className="p2 h1">
-              So finally - what is the "social relation"?
+              So finally - what is a 'social relation'?
             </div>
             <div className="p2 pr7_social">
               <img src={time} alt="time" className="time"></img>
@@ -172,7 +172,7 @@ export const Project = () => {
               <img src={trust} alt="trust" className="p3 trust"></img>
               <div className="p5 h2">Trust</div>
               <div className="p5 h5">
-                so that someone can be 100% sure and not be disappointed
+                so that someone can be 100% sure of your intentions
               </div>
               <img src={will} alt="will" className="p3 will"></img>
               <div className="p5 h2">and Willingness</div>
@@ -182,7 +182,22 @@ export const Project = () => {
             </div>
           </div>
         </div>
-        <div className="projectsection8"></div>
+        <div className="projectsection6 p2">
+          <img src={beach} alt="beach" className="beach"></img>
+        </div>
+        <div className="projectsection8">
+          <div className="h2">It is the heart of this project</div>
+          <div className="h4 p3">
+            Let me explain you why I am telling you all of this, what is this
+            project all about and how you could participate. And then you will
+            decide if you want or not.
+          </div>
+          <div className="p4">
+            <a href="/project" className="hs2323_button">
+              THE IDEA
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

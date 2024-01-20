@@ -69,7 +69,7 @@ export const Navigation = () => {
               </MenuItem>
             </NavLink>
             <NavLink
-              to="/why"
+              to="/idea"
               style={({ isActive }) => {
                 return isActive
                   ? { textDecoration: "none" }

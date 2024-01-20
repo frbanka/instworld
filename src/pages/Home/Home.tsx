@@ -10,6 +10,7 @@ import moneyhand from "../../graphics/money-hand.jpg";
 import useScrollTriggeredCountUp from "./Trigger.js";
 
 export const Home = () => {
+ 
   const ref = useRef<HTMLDivElement>(null);
   const ref2 = useRef<HTMLDivElement>(null);
   const count = useScrollTriggeredCountUp(ref, 38);
