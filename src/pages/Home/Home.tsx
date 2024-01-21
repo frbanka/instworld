@@ -10,12 +10,13 @@ import moneyhand from "../../graphics/money-hand.jpg";
 import useScrollTriggeredCountUp from "./Trigger.js";
 
 export const Home = () => {
- 
   const ref = useRef<HTMLDivElement>(null);
   const ref2 = useRef<HTMLDivElement>(null);
+  const ref3 = useRef<HTMLDivElement>(null);
   const count = useScrollTriggeredCountUp(ref, 38);
   const count2 = useScrollTriggeredCountUp(ref2, 4747);
   const count3 = useScrollTriggeredCountUp(ref2, 8);
+  const count4 = useScrollTriggeredCountUp(ref3, 150000);
   return (
     <div className="hometext">
       <div className="homecontainer">
@@ -29,7 +30,8 @@ export const Home = () => {
             </div>
             <div className="banner_title_descr">
               Karl Marx once said. That pretty simple sentence is the main
-              reason why this page and project came to life.
+              reason why this project came to life. But let me take you through
+              short introduction before we begin
             </div>
             <a href="#money" className="banner_button">
               JOIN IN
@@ -88,6 +90,10 @@ export const Home = () => {
                 Taking the total global population number ({count3} billion)
                 that gives us approximately ${count2} per person
               </div>
+              <div className="p4 h4" ref={ref3}>
+                But when we take all the untrackable money that gives us
+                approximately ${count4} per person!
+              </div>
             </div>
             <div className="much_photo">
               <img src={moneyhand} alt="pent" className="moneyhand"></img>
@@ -98,15 +104,15 @@ export const Home = () => {
           <img src={sky3} alt="guy" className="sky3"></img>
         </div>
         <div className="homesection2323">
-          <div className="h1">What all of that exactly means?</div>
+          <div className="h1">How money circulates in the world?</div>
           <div className="h4 p4 hs2323">
-            To understand it, we need to get back to Karl Marx sentence and ask
-            this question once again. If money is something that you give as
-            payment (or repayment) how it is not a thing? Help me answer that by
-            participating in this project{" "}
+            To understand it, we need to keep Karl Marx sentence in our minds
+            and ask this question once again. Money is something that you give
+            as payment (or repayment), but it is not a physical thing. Then what
+            is it?
           </div>
           <a href="/project" className="hs2323_button">
-            THE PROJECT
+            READ MORE
           </a>
         </div>
       </div>

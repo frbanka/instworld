@@ -75,3 +75,17 @@ p {
 ul {
   list-style: none;
 }
+.bold {
+  font-weight: 500;
+}
+.font_barber {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 48, 255, 1) 0%,
+    rgba(255, 0, 0, 1) 61%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,82 +1,131 @@
 import "./Why.css";
 import { NavLink } from "react-router-dom";
+import bulb from "../../graphics/bulb.jpg";
+import heart from "../../graphics/heart.jpg";
+import food from "../../graphics/food.jpg";
+import streamer from "../../graphics/streamer.jpg";
+import gamer from "../../graphics/gamer.jpg";
 const Why = () => {
   return (
-    <div className="aboutcontainer">
-      <div className="abouttext">
-        <div className="aboutsection1">
-          <div className="h12 p12">Why?</div>
-          <p className="h3 p3">
-            Why people get pay on few popular websites like YouTube, Twitch,
-            Instagram, OnlyFans?{" "}
-          </p>
+    <div className="whytext">
+      <div className="whycontainer2">
+        <div className="whysection1">
+          <div className="p1 h12">The Idea</div>
+          <div className="p4 h4">Actually, it's entertaining</div>
         </div>
-        <div className="aboutsection2">
-          <p className="h3 p3">
-            When it comes to OnlyFans.. there is not much to talk about. Mostly,
-            people pay to see some naked ass and get horny. That's all.
-          </p>
-          <p className="h2 p4">But how the others earn money?</p>
+      </div>
+      <div className="whysection12"></div>
+      <div className="whycontainer">
+        <div className="whysection2">
+          <div className="p4">
+            <img src={bulb} alt="bulb" className="bulb"></img>
+          </div>
+          <div className="is2_right">
+            <div className="h2">The idea that stands behind all of this</div>
+            <div className="h4 p4">
+              is the result of observing how today's world works when it comes
+              to money flow and earning, especially in the Internet environment.
+            </div>
+            <div className="h4 p4">How does it work?</div>
+            <div className="h4 p4">
+              Lets take few most popular social networking services, like
+              Instagram, Youtube, Twitch or TikTok and check how you can earn
+              money there
+            </div>
+          </div>
         </div>
-        <div className="aboutsection3">
-          <p className="p4 h12">Instagram influencers</p>
-          <p className="p4 h3">
-            As the{" "}
-            <a
-              href="https://creators.instagram.com/earn-money/branded-content"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Instagram Creators page
-            </a>{" "}
-            says: '..to share the brands and products you love'
-          </p>
-          <p className="p3 h4">
-            In other words, the get money from advertising products, like
-            clothes and jewelery or food - by posting photos while they eat or
-            wear the advertised goods. Showing how they spend time involving
-            these products, review them and recommend them.
-          </p>
+        <div className="whysection3">
+          <div className="is3_inst">
+            <div className="p4 h12">Instagram</div>
+            <div className="p2 h4">
+              As the{" "}
+              <a
+                className="is_link"
+                href="https://creators.instagram.com/earn-money/branded-content"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram Creators page
+              </a>{" "}
+              says: '..to share the brands and products you love'
+            </div>
+            <div className="p4 h5">
+              In other words, people get money from advertising products, like
+              cosmetics, clothes and jewelery or food - by posting photos while
+              they eat or wear the advertised goods. Showing how they spend time
+              involving these products, review them and recommend them.
+            </div>
+          </div>
+          <div className="is3_img p2">
+            <img src={food} alt="food" className="food"></img>
+            <img src={heart} alt="heart" className="heart"></img>
+          </div>
         </div>
-        <div className="aboutsection4">
-          <p className="h12 p2">Twitch streamers?</p>
-          <p className="p5 h4">
-            Almost the same. Working with different brands and advertising their
-            products.<br></br>But with some more other options like channel
-            subscriptions, donations (called Twitch bits) or by running ads on
-            their stream
-          </p>
-          <p className="p5 h3">
-            You can read more on{" "}
-            <a
-              href="https://www.thoughtleaders.io/blog/how-do-twitch-streamers-make-money"
-              target="_blank"
-              rel="noreferrer"
-            >
-              this blog
-            </a>{" "}
-            I just randomly found
-          </p>
+        <div className="whysection12"></div>
+        <div className="whysection4">
+          <div className="is4_twitch">
+            <div className="h12">Twitch</div>
+            <div className="p3 h5">
+              Almost the same. Working with different brands and advertising
+              their products. But with some more other options like channel
+              subscriptions, donations (called Twitch bits) or by running ads on
+              their stream.
+            </div>
+            <div className="p4 h5">
+              Despite the fact Twitch was made for gaming content, category
+              ‘Just Chatting’ became the top watch content on the platform. So..
+              streamers earn just on casual conversations between them and the
+              viewers.
+            </div>
+            <div className="p4 h4">
+              You can read more on
+              <a
+                className="is_link"
+                href="https://www.thoughtleaders.io/blog/how-do-twitch-streamers-make-money"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                this blog{" "}
+              </a>
+              found in the Internet
+            </div>
+          </div>
+          <div className="is4_img">
+            <img src={streamer} alt="streamer" className="streamer"></img>
+          </div>
         </div>
-        <div className="aboutsection5"></div>
-        <div className="aboutsection6">
-          <p className="p2 h12">And Youtube?</p>
-          <p className="p3 h3">
-            Similar to the others. Partnership with brands, subscriptions, ads,
-            donations
-          </p>
-          <p className="p5 h3">
-            (Read more here:{" "}
-            <a
-              href="https://support.google.com/youtube/answer/72857?hl=en"
-              target="_blank"
-              rel="noreferrer"
-            >
-              click)
-            </a>
-          </p>
+        <div className="whysection12"></div>
+        <div className="whysection5">
+          <div className="is5_youtube">
+            <div className="is5_img">
+              <img src={gamer} alt="gamer" className="gamer"></img>
+            </div>
+            <div className="is5_descr">
+              <div className="h12">Youtube</div>
+              <div className="p3 h4">
+                Similar to the others. Partnership with brands, subscriptions,
+                ads, donations
+              </div>
+              <div className="p4 h4">
+                It is often the second step of Twitch - people upload recorded
+                live streams and earn money again on the same content.
+              </div>
+              <div className="p5 h4">
+                (Read more here:{" "}
+                <a
+                  className="is_link"
+                  href="https://support.google.com/youtube/answer/72857?hl=en"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  click)
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="aboutsection7">
+        <div className="whysection6">
           <p className="p2 h1">This it is nothing wrong</p>
           <p className="p4 h3">
             It is normal now, that whole Internet is about advertising. To gain
@@ -88,7 +137,7 @@ const Why = () => {
             a lot of money. ' - Herman J. Mankiewicz
           </p>
         </div>
-        <div className="aboutsection8">
+        <div className="whysection7">
           <p className="p2 h2">But why normal people make donations?</p>
           <p className="p3 h3">
             Why people give their private money to the Internet celebrities?
@@ -99,7 +148,7 @@ const Why = () => {
             - it just doesn't matter. And I want to show you
           </p>
         </div>
-        <div className="aboutsection9">
+        <div className="whysection8">
           <p className="p2 h12">How?</p>
           <p className="p4 h2">By this experiment</p>
           <p className="p3 h3">
@@ -108,7 +157,7 @@ const Why = () => {
             you like and follow.
           </p>
         </div>
-        <div className="aboutsection10">
+        <div className="whysection9">
           <p className="p2 h2">
             And make donation on this page<br></br>To me.
           </p>

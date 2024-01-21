@@ -1,5 +1,5 @@
-.aboutcontainer {
-  font-family: Acme;
+.whycontainer {
+  font-family: Oswald;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,55 +7,151 @@
   width: 1400px;
   height: 100%;
   background-color: white;
+  padding-top: 50px;
 }
-.abouttext {
+.whycontainer2 {
+  font-family: Oswald;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: url(../../graphics/clouds.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.whytext {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
 }
-.aboutsection1 {
-  background-color: bisque;
+.whysection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  width: 1400px;
+  height: 600px;
+}
+.whysection12 {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(3, 36, 0, 1) 0%,
+    rgba(9, 121, 37, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 50px;
+}
+.whysection2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
   width: 1400px;
   height: 800px;
 }
-.aboutsection2 {
+.bulb {
+  width: 500px;
+}
+.is2_right {
+  padding-left: 50px;
+  width: 700px;
+}
+.whysection3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 193, 116);
   width: 1400px;
-  height: 700px;
+  height: 1600px;
 }
-.aboutsection3 {
+.is3_inst {
+  width: 900px;
+}
+.is3_img {
   display: flex;
-  flex-direction: column;
+  gap: 50px;
+}
+.food,
+.heart {
+  width: 600px;
+}
+.whysection4 {
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  width: 1400px;
+  height: 1000px;
+}
+.is4_twitch {
+  display: flex;
   justify-content: center;
-  background-color: rgb(255, 255, 255);
-  width: 1400px;
-  height: 800px;
-}
-.aboutsection4 {
-  display: flex;
+  align-items: flex-end;
   flex-direction: column;
-  align-items: center;
-  background-color: rgba(255, 240, 223, 0.884);
-  width: 1400px;
-  height: 750px;
+  text-align: right;
+  width: 700px;
+  padding: 0px 50px 0px 50px;
 }
-.aboutsection5 {
+.is4_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  width: 650px;
+}
+.is_link {
+  color: green;
+}
+.is_link:hover {
+  color: rgb(0, 65, 0);
+}
+.streamer {
+  width: 700px;
+}
+.whysection5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  gap: 100px;
   background-color: rgba(255, 255, 255, 0.781);
   width: 1400px;
-  height: 400px;
+  height: 900px;
 }
-.aboutsection6 {
+.is5_youtube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.is5_descr {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  padding-right: 50px;
+}
+.is5_img {
+  width: 700px;
+  padding-left: 50px;
+}
+.gamer {
+  width: 650px;
+}
+.whysection6 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +159,7 @@
   width: 1400px;
   height: 700px;
 }
-.aboutsection7 {
+.whysection7 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +167,7 @@
   width: 1400px;
   height: 800px;
 }
-.aboutsection8 {
+.whysection8 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +175,7 @@
   width: 1400px;
   height: 800px;
 }
-.aboutsection9 {
+.whysection9 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,7 +183,7 @@
   width: 1400px;
   height: 1000px;
 }
-.aboutsection10 {
+.whysection10 {
   display: flex;
   flex-direction: column;
   align-items: center;

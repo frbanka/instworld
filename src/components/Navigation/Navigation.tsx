@@ -32,7 +32,7 @@ export const Navigation = () => {
         <div className="menu">
           <div className="move-menu">
             <NavLink
-              to="/why"
+              to="/idea"
               style={({ isActive }) => {
                 return isActive
                   ? { textDecoration: "none" }
@@ -40,7 +40,7 @@ export const Navigation = () => {
               }}
             >
               <MenuItem selected className="menuItemProject">
-                WHY?
+                THE IDEA
               </MenuItem>
             </NavLink>
 
@@ -69,7 +69,7 @@ export const Navigation = () => {
               </MenuItem>
             </NavLink>
             <NavLink
-              to="/idea"
+              to="/social"
               style={({ isActive }) => {
                 return isActive
                   ? { textDecoration: "none" }
@@ -77,7 +77,7 @@ export const Navigation = () => {
               }}
             >
               <MenuItem selected className="menuItemProject">
-                THE IDEA
+                SOCIAL
               </MenuItem>
             </NavLink>
             <NavLink

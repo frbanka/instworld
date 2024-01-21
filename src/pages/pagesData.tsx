@@ -1,11 +1,11 @@
 import { routerType } from "../types/router.types";
-import About from "./Why/Why";
+import Why from "./Why/Why";
 import { Project } from "./Project/Project";
 import { Money } from "./Money/Money";
 import { Goals } from "./Goals/Goals";
 import { Donate } from "./Donate/Donate";
 import { Home } from "./Home/Home";
-import Idea from "./Idea/Idea";
+import Social from "./Social/Social";
 
 const pagesData: routerType[] = [
   {
@@ -14,19 +14,19 @@ const pagesData: routerType[] = [
     title: "home",
   },
   {
-    path: "/project",
+    path: "project",
     element: <Project />,
     title: "project",
   },
   {
-    path: "/idea",
-    element: <Idea />,
-    title: "idea",
+    path: "social",
+    element: <Social />,
+    title: "social",
   },
   {
-    path: "why",
-    element: <About />,
-    title: "why",
+    path: "idea",
+    element: <Why />,
+    title: "idea",
   },
   {
     path: "money",
