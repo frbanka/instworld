@@ -153,17 +153,26 @@
 }
 .socialsection6 {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  background-color: rgba(239, 255, 179, 0.781);
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(3, 36, 0, 1) 0%,
+    rgba(9, 121, 37, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   width: 1400px;
-  height: 700px;
+  height: 400px;
+}
+.ss6_text {
+  width: 1000px;
 }
 .socialsection7 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(255, 249, 159, 0.781);
   width: 1400px;
   height: 800px;
 }
@@ -190,4 +199,7 @@
   background-color: rgb(157, 255, 189);
   width: 1400px;
   height: 900px;
+}
+.selfie {
+  width: 1300px;
 }

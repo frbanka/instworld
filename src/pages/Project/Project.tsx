@@ -181,7 +181,7 @@ export const Project = () => {
         <div className="projectsection7">
           <div className="pr7">
             <div className="p2 h1">
-              So let's get it together what money (aka social relation) is in 3
+              So let's get it together what money (or social relation) is in 3
               points:
             </div>
             <div className="p2 pr7_social">
@@ -209,9 +209,11 @@ export const Project = () => {
         <div className="projectsection8">
           <div className="h2">Social relation in social media</div>
           <div className="h4 p3">
-            Let me explain you why I am telling you all of this, what is this
-            project all about and how you could participate. And then you will
-            decide if you want or not.
+            Most of today's social relations and money exchange takes place in
+            the Internet. Place, where you can see more clearly how money become
+            just a 'relation' and have nothing to do with real goods or
+            services. After further consideration - they don't have any value at
+            all. And you can get them - almost for nothing.
           </div>
           <div className="p4">
             <a href="/social" className="hs2323_button">

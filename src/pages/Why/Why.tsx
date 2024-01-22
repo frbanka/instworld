@@ -11,7 +11,9 @@ const Why = () => {
       <div className="whycontainer2">
         <div className="whysection1">
           <div className="p1 h12">The Idea</div>
-          <div className="p4 h4">Actually, it's entertaining</div>
+          <div className="p4 h3">
+            The genious, mystery idea that stands behind all of this
+          </div>
         </div>
       </div>
       <div className="whysection12"></div>
@@ -21,110 +23,28 @@ const Why = () => {
             <img src={bulb} alt="bulb" className="bulb"></img>
           </div>
           <div className="is2_right">
-            <div className="h2">The idea that stands behind all of this</div>
+            <div className="h2">Actually, it is all about having fun</div>
             <div className="h4 p4">
-              is the result of observing how today's world works when it comes
-              to money flow and earning, especially in the Internet environment.
+              Isn't it? Why do you follow instagram influencers? Or watch Twitch
+              and TikTok? To have fun. On different ways.
             </div>
-            <div className="h4 p4">How does it work?</div>
             <div className="h4 p4">
-              Lets take few most popular social networking services, like
-              Instagram, Youtube, Twitch or TikTok and check how you can earn
-              money there
+              Why do you spend money on OnlyFans pages? Well, better not answer
+              that..
+            </div>
+            <div className="h4 p4">
+              Of course, people who make videos on YouTube put lot of work in
+              it. From recording to editing.
             </div>
           </div>
         </div>
         <div className="whysection3">
-          <div className="is3_inst">
-            <div className="p4 h12">Instagram</div>
-            <div className="p2 h4">
-              As the{" "}
-              <a
-                className="is_link"
-                href="https://creators.instagram.com/earn-money/branded-content"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Instagram Creators page
-              </a>{" "}
-              says: '..to share the brands and products you love'
-            </div>
-            <div className="p4 h5">
-              In other words, people get money from advertising products, like
-              cosmetics, clothes and jewelery or food - by posting photos while
-              they eat or wear the advertised goods. Showing how they spend time
-              involving these products, review them and recommend them.
-            </div>
-          </div>
           <div className="is3_img p2">
             <img src={food} alt="food" className="food"></img>
             <img src={heart} alt="heart" className="heart"></img>
           </div>
         </div>
         <div className="whysection12"></div>
-        <div className="whysection4">
-          <div className="is4_twitch">
-            <div className="h12">Twitch</div>
-            <div className="p3 h5">
-              Almost the same. Working with different brands and advertising
-              their products. But with some more other options like channel
-              subscriptions, donations (called Twitch bits) or by running ads on
-              their stream.
-            </div>
-            <div className="p4 h5">
-              Despite the fact Twitch was made for gaming content, category
-              ‘Just Chatting’ became the top watch content on the platform. So..
-              streamers earn just on casual conversations between them and the
-              viewers.
-            </div>
-            <div className="p4 h4">
-              You can read more on
-              <a
-                className="is_link"
-                href="https://www.thoughtleaders.io/blog/how-do-twitch-streamers-make-money"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                this blog{" "}
-              </a>
-              found in the Internet
-            </div>
-          </div>
-          <div className="is4_img">
-            <img src={streamer} alt="streamer" className="streamer"></img>
-          </div>
-        </div>
-        <div className="whysection12"></div>
-        <div className="whysection5">
-          <div className="is5_youtube">
-            <div className="is5_img">
-              <img src={gamer} alt="gamer" className="gamer"></img>
-            </div>
-            <div className="is5_descr">
-              <div className="h12">Youtube</div>
-              <div className="p3 h4">
-                Similar to the others. Partnership with brands, subscriptions,
-                ads, donations
-              </div>
-              <div className="p4 h4">
-                It is often the second step of Twitch - people upload recorded
-                live streams and earn money again on the same content.
-              </div>
-              <div className="p5 h4">
-                (Read more here:{" "}
-                <a
-                  className="is_link"
-                  href="https://support.google.com/youtube/answer/72857?hl=en"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  click)
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="whysection6">
           <p className="p2 h1">This it is nothing wrong</p>
           <p className="p4 h3">

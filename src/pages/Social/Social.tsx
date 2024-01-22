@@ -5,6 +5,7 @@ import heart from "../../graphics/heart.jpg";
 import food from "../../graphics/food.jpg";
 import streamer from "../../graphics/streamer.jpg";
 import gamer from "../../graphics/gamer.jpg";
+import selfie from "../../graphics/selfie.jpg";
 const Social = () => {
   return (
     <div className="socialtext">
@@ -24,21 +25,31 @@ const Social = () => {
             <img src={test} alt="bulb" className="test"></img>
           </div>
           <div className="is2_right">
-            <div className="h2">The idea that stands behind all of this</div>
-            <div className="h4 p4">
-              is the result of observing how today's world works when it comes
-              to money flow and earning, especially in the Internet environment.
+            <div className="h3">
+              'It's no trick to make a lot of money, if all you want to do is
+              make a lot of money.'
             </div>
-            <div className="h4 p4">How does it work?</div>
             <div className="h4 p4">
-              Lets take few most popular social networking services, like
-              Instagram, Youtube, Twitch or TikTok and check how you can earn
-              money there
+              Is there something that nobody would never ever pay for? Like..
+              would you buy some random guy's photo, a selfie?{" "}
+              <a
+                className="is_link"
+                href="https://www.businessinsider.com/indonesia-student-makes-a-million-selling-expressionless-selfies-as-nfts-2022-1?IR=T"
+                rel="nofollow"
+                target="_blank"
+              >
+                Well, someone did..
+              </a>
+            </div>
+            <div className="h4 p4">
+              But lets take a look at few most popular social networking
+              services, like Instagram, Youtube, Twitch or TikTok and check how
+              people earn money there
             </div>
           </div>
         </div>
         <div className="socialsection3">
-          <div className="is3_inst">
+          <div className="is3_inst p2">
             <div className="p4 h12">Instagram</div>
             <div className="p2 h4">
               As the{" "}
@@ -91,7 +102,7 @@ const Social = () => {
                 {" "}
                 this blog{" "}
               </a>
-              found in the Internet
+              found somewhere in the Internet
             </div>
           </div>
           <div className="is4_img">
@@ -129,60 +140,30 @@ const Social = () => {
           </div>
         </div>
         <div className="socialsection6">
-          <p className="p2 h1">This it is nothing wrong</p>
-          <p className="p4 h3">
+          <div className="h1">Well, nothing wrong or weird in these days</div>
+          <div className="p4 h4 ss6_text">
             It is normal now, that whole Internet is about advertising. To gain
             customers. Followers. Clients. Audience. Fans. To sell your time,
             your life, your body, to sell products.
-          </p>
-          <p className="p4 h3">
-            'It's no trick to make a lot of money, if all you want to do is make
-            a lot of money. ' - Herman J. Mankiewicz
-          </p>
+          </div>
+        </div>
+        <div>
+          <div className="is3_img p2">
+            <img src={selfie} alt="selfie" className="selfie"></img>
+          </div>
         </div>
         <div className="socialsection7">
-          <p className="p2 h2">But why normal people make donations?</p>
-          <p className="p3 h3">
-            Why people give their private money to the Internet celebrities?
-            <br></br>It's simple. I will tell you.
-          </p>
-          <p className="p4 h3">
-            Because they can.<br></br>It's their choice. Whatever the reason is
-            - it just doesn't matter. And I want to show you
-          </p>
-        </div>
-        <div className="socialsection8">
-          <p className="p2 h12">How?</p>
-          <p className="p4 h2">By this experiment</p>
-          <p className="p3 h3">
-            Just imagine that I am your favourite streamer or Youtuber. Or your
-            favourite Instagram model. Or any other Creator, social media Star
-            you like and follow.
-          </p>
-        </div>
-        <div className="socialsection9">
-          <p className="p2 h2">
-            And make donation on this page<br></br>To me.
-          </p>
-          <p className="p3 h3">
-            Yes, donate me. You can donate a dollar, a thousand dollars or just
-            a penny
-          </p>
-          <p className="p3 h3">It doesn't matter how much it will be.</p>
-          <p className="p4 h2">Just do it</p>
-          <p className="p2 h3">
-            <NavLink
-              to="/money"
-              style={({ isActive }) => {
-                return isActive
-                  ? { textDecoration: "none" }
-                  : { textDecoration: "none" };
-              }}
-            >
-              but why? ➡
-            </NavLink>
-          </p>
-          <p className="p4 h5">#onemilliondollarman</p>
+          <p className="p2 h12">But..</p>
+          <div className="p4 h3">
+            why people (fans, followers, viewers) give their private money to
+            the Internet celebrities? Because they get something in return? Or
+            maybe just because they can and they like them?
+          </div>
+          <div className="p3">
+            <a href="/idea" className="hs2323_button">
+              WHY ?
+            </a>
+          </div>
         </div>
       </div>
     </div>
