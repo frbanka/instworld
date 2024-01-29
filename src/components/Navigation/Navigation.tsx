@@ -134,7 +134,7 @@ export const Navigation = () => {
           </div>
           <NavLink
             className="menu-faq"
-            to="/goals"
+            to="/faq"
             style={({ isActive }) => {
               return isActive
                 ? { textDecoration: "none" }

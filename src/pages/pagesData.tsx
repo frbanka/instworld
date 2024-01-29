@@ -5,6 +5,7 @@ import { Money } from "./Money/Money";
 import { Goals } from "./Goals/Goals";
 import { Donate } from "./Donate/Donate";
 import { Home } from "./Home/Home";
+import { Faq } from "./Faq/Faq";
 import Social from "./Social/Social";
 
 const pagesData: routerType[] = [
@@ -42,6 +43,11 @@ const pagesData: routerType[] = [
     path: "pay",
     element: <Donate />,
     title: "pay",
+  },
+  {
+    path: "faq",
+    element: <Faq />,
+    title: "faq",
   },
 ];
 
