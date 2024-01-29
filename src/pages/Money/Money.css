@@ -1,5 +1,5 @@
-.contactcontainer {
-  font-family: Acme;
+.moneycontainer {
+  font-family: Oswald;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,37 +8,59 @@
   height: 100%;
   background-color: white;
 }
-.contacttext {
+.moneycontainer2 {
+  font-family: Oswald;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: url(../../graphics/money4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.moneytext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
-.contactsection1 {
-  background-color: bisque;
-  width: 1400px;
-  height: 800px;
+.moneysection1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 1000px;
+  height: 600px;
 }
-.contactsection2 {
+.money {
+  font-size: 90px;
+  font-family: Oswald;
+}
+.moneysection2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(219, 240, 126);
   width: 1400px;
-  height: 800px;
+  height: 1000px;
 }
-.contactsection3 {
+.ms2_right {
+  width: 650px;
+  padding-left: 10px;
+}
+.moneysection3 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(255, 235, 211);
-  width: 1400px;
-  height: 950px;
+  width: 900px;
+  height: 1000px;
 }
-.contactsection4 {
+.moneysection4 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +68,7 @@
   width: 1400px;
   height: 700px;
 }
-.contactsection5 {
+.moneysection5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -55,7 +77,7 @@
   width: 1400px;
   height: 900px;
 }
-.contactsection6 {
+.moneysection6 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +85,7 @@
   width: 1400px;
   height: 900px;
 }
-.contactsection7 {
+.moneysection7 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +93,7 @@
   width: 1400px;
   height: 1000px;
 }
-.contactsection8 {
+.moneysection8 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +101,7 @@
   width: 1400px;
   height: 1000px;
 }
-.contactsection9 {
+.moneysection9 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,11 +109,14 @@
   width: 1400px;
   height: 1000px;
 }
-.contactsection10 {
+.moneysection10 {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: rgb(157, 255, 189);
   width: 1400px;
   height: 1000px;
+}
+.money2 {
+  width: 1400px;
 }

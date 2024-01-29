@@ -1,33 +1,44 @@
 import { NavLink } from "react-router-dom";
 import "./Money.css";
-
+import money1 from "../../graphics/money1.jpg";
+import money2 from "../../graphics/money2.jpg";
+import money3 from "../../graphics/money3.jpg";
+import money4 from "../../graphics/money4.jpg";
+import money5 from "../../graphics/money5.jpg";
 export const Money = () => {
   return (
-    <div className="contactcontainer">
-      <div className="contacttext">
-        <div className="contactsection1">
-          <p className="h12 p2">For fun.</p>
-          <div className="h12 p3">
-            <p className="h3 p4">
-              To have fun. To give me fun. To proove yourself, proove me or the
-              other people - the whole Internet - that it doesn't matter why and
-              who you give your money. Because you can.
-            </p>
+    <div className="moneytext">
+      <div className="moneycontainer2">
+        <div className="moneysection1">
+          <div className="money">MONEY</div>
+        </div>
+      </div>
+      <div className="moneycontainer">
+        <div className="moneysection2">
+          <div className="h12 p2">$1,000,000</div>
+          <div className="h3 p4">is it much?</div>
+          <div className="h3 p3">Hard to say, right?</div>
+          <div className="p3">
+            <img src={money2} alt="money2" className="money2"></img>
+          </div>
+          <div className="ms2_right"></div>
+        </div>
+        <div className="moneysection3">
+          <div className="p3 h12">What about $82,000,000?</div>
+          <div className="p3 h4">
+            This is the number of $ that one guy earned in 2022 mostly through
+            his YouTube channel. Take a look at this rank:{" "}
+            <a
+              className="is_link"
+              href="https://www.cbsnews.com/news/forbes-top-10-creators-list-net-worth-mr-beast-youtube/"
+              rel="nofollow"
+              target="_blank"
+            >
+              click
+            </a>
           </div>
         </div>
-        <div className="contactsection2">
-          <p className="h2 p3">It is your choice</p>
-          <p className="h3 p3">
-            And there is one important thing that comes from it:
-          </p>
-          <p className="h3 p5">
-            You created famous people. You create Internet Stars. All of these
-            famous youtubers and influencers wouldn't exist if it only wasn't
-            for you
-          </p>
-          <p className="h2 p5">Thats why I am asking you to 'create me'</p>
-        </div>
-        <div className="contactsection3">
+        <div className="moneysection3">
           <p className="h1 p3">
             Help me get money - help me become rich and become famous because of
             being rich
@@ -43,7 +54,7 @@ export const Money = () => {
           </p>
           <p className="p4 h2">But.. can it be opposite?</p>
         </div>
-        <div className="contactsection4">
+        <div className="moneysection4">
           <p className="h2 p2">
             Can I get your attention.. now? Can you support me, donate me, treat
             me like I was famous and popular?
@@ -52,7 +63,7 @@ export const Money = () => {
           <p className="p5 h3">And you will be creator of me</p>
           <p className="p5 h3"></p>
         </div>
-        <div className="contactsection5">
+        <div className="moneysection5">
           <p className="p2 h2">
             Do you remember{" "}
             <a
@@ -74,7 +85,7 @@ export const Money = () => {
             celebrities
           </p>
         </div>
-        <div className="contactsection7">
+        <div className="moneysection7">
           <p className="h2 p2">
             Starting with me. Support me. Follow me. Like me. Share me. Donate
             me.

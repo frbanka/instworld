@@ -12,13 +12,12 @@ const Social = () => {
       <div className="socialcontainer2">
         <div className="socialsection1">
           <div className="p1 h12">Social media relations</div>
-          <div className="p4 h4">
+          <div className="h4">
             Almost whole world is connected to the Internet. And Internet is a
             powerful tool for money making.
           </div>
         </div>
       </div>
-      <div className="socialsection12"></div>
       <div className="socialcontainer">
         <div className="socialsection2">
           <div className="p4">
@@ -31,14 +30,15 @@ const Social = () => {
             </div>
             <div className="h4 p4">
               Is there something that nobody would never ever pay for? Like..
-              would you buy some random guy's photo, a selfie?{" "}
+              would you buy some random guy's photo, a selfie? Well, someone
+              did..{" "}
               <a
                 className="is_link"
                 href="https://www.businessinsider.com/indonesia-student-makes-a-million-selling-expressionless-selfies-as-nfts-2022-1?IR=T"
                 rel="nofollow"
                 target="_blank"
               >
-                Well, someone did..
+                check here
               </a>
             </div>
             <div className="h4 p4">
@@ -85,13 +85,13 @@ const Social = () => {
               subscriptions, donations (called Twitch bits) or by running ads on
               their stream.
             </div>
-            <div className="p4 h5">
+            <div className="p4 h4">
               Despite the fact Twitch was made for gaming content, category
               ‘Just Chatting’ became the top watch content on the platform. So..
               streamers earn just on casual conversations between them and the
               viewers.
             </div>
-            <div className="p4 h4">
+            <div className="p4 h5">
               You can read more on
               <a
                 className="is_link"
@@ -143,8 +143,8 @@ const Social = () => {
           <div className="h1">Well, nothing wrong or weird in these days</div>
           <div className="p4 h4 ss6_text">
             It is normal now, that whole Internet is about advertising. To gain
-            customers. Followers. Clients. Audience. Fans. To sell your time,
-            your life, your body, to sell products.
+            customers. Followers. Clients. Audience. Fans. Sell your time, your
+            private life, your body. Sell products.
           </div>
         </div>
         <div>
@@ -155,9 +155,9 @@ const Social = () => {
         <div className="socialsection7">
           <p className="p2 h12">But..</p>
           <div className="p4 h3">
-            why people (fans, followers, viewers) give their private money to
-            the Internet celebrities? Because they get something in return? Or
-            maybe just because they can and they like them?
+            is there a reason why people (fans, followers, viewers) give their
+            private money to the Internet celebrities? They get something in
+            return? Or maybe just because they can and they like them?
           </div>
           <div className="p3">
             <a href="/idea" className="hs2323_button">
