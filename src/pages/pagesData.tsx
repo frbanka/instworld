@@ -6,6 +6,8 @@ import { Goals } from "./Goals/Goals";
 import { Donate } from "./Donate/Donate";
 import { Home } from "./Home/Home";
 import { Faq } from "./Faq/Faq";
+import { Counter } from "./Counter/Counter";
+import { Fames } from "./Fames/Fames";
 import Social from "./Social/Social";
 
 const pagesData: routerType[] = [
@@ -49,6 +51,16 @@ const pagesData: routerType[] = [
     element: <Faq />,
     title: "faq",
   },
+  {
+    path: "counter",
+    element: <Counter />,
+    title: "counter",
+  },
+  {
+    path: "fames",
+    element: <Fames />,
+    title: "fames",
+  }
 ];
 
 export default pagesData;

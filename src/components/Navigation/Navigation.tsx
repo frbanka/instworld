@@ -145,7 +145,7 @@ export const Navigation = () => {
           </NavLink>
           <div className="move-menu2">
             <NavLink
-              to="/goals"
+              to="/fames"
               style={({ isActive }) => {
                 return isActive
                   ? { textDecoration: "none" }
@@ -158,7 +158,7 @@ export const Navigation = () => {
             </NavLink>
 
             <NavLink
-              to="/why"
+              to="/counter"
               style={({ isActive }) => {
                 return isActive
                   ? { textDecoration: "none" }
@@ -170,7 +170,7 @@ export const Navigation = () => {
               </MenuItem>
             </NavLink>
             <NavLink
-              to="/donate"
+              to="/pay"
               style={({ isActive }) => {
                 return isActive
                   ? { textDecoration: "none" }
