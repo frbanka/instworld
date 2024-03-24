@@ -8,6 +8,7 @@ import { Home } from "./Home/Home";
 import { Faq } from "./Faq/Faq";
 import { Counter } from "./Counter/Counter";
 import { Fames } from "./Fames/Fames";
+import { Experiment } from "./Experiment/Experiment";
 import Social from "./Social/Social";
 
 const pagesData: routerType[] = [
@@ -60,7 +61,12 @@ const pagesData: routerType[] = [
     path: "fames",
     element: <Fames />,
     title: "fames",
-  }
+  },
+  {
+    path: "experiment",
+    element: <Experiment />,
+    title: "experiment",
+  },
 ];
 
 export default pagesData;

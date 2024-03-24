@@ -39,76 +39,52 @@ export const Money = () => {
           </div>
         </div>
         <div className="moneysection3">
-          <p className="h1 p3">
-            Help me get money - help me become rich and become famous because of
-            being rich
-          </p>
+          <p className="h1 p3">What about 1$ ?</p>
           <p className="p4 h3">
-            You say it is stupid. Maybe. But think about it:
+            Is it much for you? Or for any "normal, everyday working person"?
           </p>
           <p className="p4 h4">
-            there are many people who try hard day by day to become popular in
-            the Internet and earn lot of money - like streamers and influencers,
-            to get your attention for you to support them, share their work and
-            pay them
+            I think we can agree that the answer is "no". It is not much.
           </p>
-          <p className="p4 h2">But.. can it be opposite?</p>
         </div>
         <div className="moneysection4">
-          <p className="h2 p2">
-            Can I get your attention.. now? Can you support me, donate me, treat
-            me like I was famous and popular?
+          <p className="h1 p2">Money money money.. all is about money.</p>
+          <p className="p5 h3">
+            Life is about money. You don't have money - you don't have anything
           </p>
-          <p className="p5 h2">So I will become one truly?</p>
-          <p className="p5 h3">And you will be creator of me</p>
+          <p className="p5 h4">
+            Oh, please. Stop talking under your breath about friends, family,
+            love etc. You don't need money to have all of it, of course. But
+            just take a minute and think - how would you life look like now if
+            you were broke, with no money at all?
+          </p>
           <p className="p5 h3"></p>
         </div>
         <div className="moneysection5">
-          <p className="p2 h2">
-            Do you remember{" "}
-            <a
-              href="https://www.joe.co.uk/news/man-becomes-millionaire-after-taking-selfie-every-day-for-five-years-312593"
-              rel="nofollow"
-            >
-              that guy who took selfies everday
-            </a>{" "}
-            for five years and became millionare?
+          <p className="p2 h1">
+            I think it would suck. At least for the most of you.
           </p>
           <p className="p4 h3">
-            This is what I'm talking about. They were just selfies. Nothing you
-            don't need to live. But still there was lot of people who wanted to
-            buy it.
+            Now think otherwise - how would it look like if you were rich?
           </p>
-          <p className="p4 h3">
-            Lets take in on the next level.<br></br>Lets create a senseless,
-            absurd fanbase - huge group of people supporting non (yet) existing
-            celebrities
-          </p>
+          <p className="p4 h3">Seriously, think about it. It's good, right?</p>
         </div>
         <div className="moneysection7">
           <p className="h2 p2">
-            Starting with me. Support me. Follow me. Like me. Share me. Donate
-            me.
+            Is 1$ less makes you poor? Is 1$ more makes you rich?
           </p>
           <p className="p5 h3">
-            Refuse to buy yourself a coffee. Or a beer. Or pornhub premium. Or
-            whatever you buy everyday
+            You know that the right answers are: "no" and "yes"?
           </p>
-          <p className="p5 h3">It's only pennies.</p>
-          <p className="p5 h3"></p>
-          <p className="p4 h2">
-            <NavLink
-              to="/goals"
-              style={({ isActive }) => {
-                return isActive
-                  ? { textDecoration: "none" }
-                  : { textDecoration: "none" };
-              }}
-            >
-              Help me reach the Goal
-            </NavLink>
+          <p className="p5 h4">
+            You are poor when you have nothing. You are rich when you have
+            something. And the more you get - the more rich you'll become.
           </p>
-          <p className="p4 h5">#onemilliondollarman</p>
+          <div className="p4">
+            <a href="/experiment" className="hs2323_button">
+              EXPERIMENT
+            </a>
+          </div>
         </div>
       </div>
     </div>

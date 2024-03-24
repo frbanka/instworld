@@ -35,9 +35,9 @@ export const Project = () => {
             </div>
             <div className="p4 h3">You have to give him money.</div>
             <div className="p4 h5">
-              Why? Because he knows that there are people willing to pay for
-              this service, for skills he has and for his time - time he could
-              use, for example, to meet with his friends.
+              Why? Because he knows that there are lot of other barbers who take
+              money for it and people are willing to pay for it - for skills and
+              for the time, time it takes to work on your hair.
             </div>
           </div>
           <div className="p2 pr12_right">
@@ -46,7 +46,7 @@ export const Project = () => {
         </div>
         <div className="projectsection2">
           <p className="h2">
-            Ok, so you give barber money and now he can use it
+            Okay, so you give barber money and now he can use it
           </p>
         </div>
         <div className="projectsection9">
@@ -56,11 +56,11 @@ export const Project = () => {
               use the money at the groceries
             </div>
             <div className="prbarber h4 p4">
-              He wants to buy food - but some vegetables, fruits, meat, snacks
-              and drinks
+              He wants to buy food - some vegetables, fruits, meat, snacks and
+              drinks
             </div>
             <div className="prbarber h4 p4">
-              He wants to make a dinner for friends.
+              All he wants is to make a dinner for friends.
             </div>
           </div>
           <div className="dinner_wrapper">
@@ -73,7 +73,7 @@ export const Project = () => {
           </div>
           <div className="prbarber2 p3 h4">
             You could say, that every fruit and vegetable that grows on Earth,
-            every animal that lives on this planet - it belongs to every
+            every animal that lives on this planet - it "belongs" to every
             inhabitant of the Earth.
           </div>
           <div className="prbarber2 p3 h4">
@@ -91,7 +91,7 @@ export const Project = () => {
         </div>
         <div className="projectsection3">
           <div className="pr3_title">
-            <div className="h1 p2">Because someone took their time</div>
+            <div className="h1 p2">You pay for someone's time</div>
           </div>
           <div className="pr3_desc">
             <div className="pr3_img_container">
@@ -140,7 +140,7 @@ export const Project = () => {
         <div className="projectsection8">
           <p className="h2">
             If you get paid for something - then you can pay someone else for
-            something too.
+            any other thing.
           </p>
         </div>
         <div className="projectsection6">
@@ -181,7 +181,7 @@ export const Project = () => {
         <div className="projectsection7">
           <div className="pr7">
             <div className="p2 h1">
-              So let's get it together what money (or social relation) is in 3
+              So let's get it together what money (social relation) is in 3
               points:
             </div>
             <div className="p2 pr7_social">
